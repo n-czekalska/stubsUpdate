@@ -1,0 +1,3923 @@
+{
+  "addressType": {
+    "primaryAddress": {
+      "code": "PRIM",
+      "shortDescription": "Primary Address",
+      "longDescription": "Primary Address"
+    },
+    "residentialAddresses": {
+      "code": "RESI",
+      "shortDescription": "Residential Addresses",
+      "longDescription": "Residential Addresses"
+    },
+    "businessAddresses": {
+      "code": "BUSN",
+      "shortDescription": "Business Addresses",
+      "longDescription": "Business Addresses"
+    }
+  },
+  "adviseType": {
+    "Advised": {
+      "code": "ADVI",
+      "shortDescription": "Advised",
+      "longDescription": "Advised"
+    },
+    "Non-Advised": {
+      "code": "NADV",
+      "shortDescription": "Non-Advised",
+      "longDescription": "Non-Advised"
+    }
+  },
+  "adviserChargeFrequency": {
+    "Monthly": {
+      "code": "MTHY",
+      "shortDescription": "Monthly",
+      "longDescription": "Monthly"
+    },
+    "Quarterly": {
+      "code": "QTLY",
+      "shortDescription": "Quarterly",
+      "longDescription": "Quarterly"
+    },
+    "Half yearly": {
+      "code": "HAYE",
+      "shortDescription": "Half yearly",
+      "longDescription": "Half yearly"
+    },
+    "Yearly": {
+      "code": "YRLY",
+      "shortDescription": "Yearly",
+      "longDescription": "Yearly"
+    }
+  },
+  "adviserRestriction": {
+    "Defined Benefit Restriction": {
+      "code": "DBRT",
+      "shortDescription": "Defined Benefit Restriction",
+      "longDescription": "Defined Benefit Restriction"
+    },
+    "New Business Restriction": {
+      "code": "NBRT",
+      "shortDescription": "New Business Restriction",
+      "longDescription": "New Business Restriction"
+    }
+  },
+  "AMLVerificationClassification": {
+    "AML Pending": {
+      "code": "AMLA",
+      "shortDescription": "AML Pending",
+      "longDescription": "AML Pending"
+    },
+    "AML Not Verified": {
+      "code": "AMLN",
+      "shortDescription": "AML Not Verified",
+      "longDescription": "AML Not Verified"
+    },
+    "AML Pre-commencement": {
+      "code": "AMLP",
+      "shortDescription": "AML Pre-commencement",
+      "longDescription": "AML Pre-commencement"
+    },
+    "AML Refer": {
+      "code": "AMLR",
+      "shortDescription": "AML Refer",
+      "longDescription": "AML Refer"
+    },
+    "AML Verified": {
+      "code": "AMLV",
+      "shortDescription": "AML Verified",
+      "longDescription": "AML Verified"
+    }
+  },
+  "applicantStatus": {
+    "Draft": {
+      "code": "DRFT",
+      "shortDescription": "Draft",
+      "longDescription": "Draft"
+    },
+    "Live": {
+      "code": "LIVE",
+      "shortDescription": "Live",
+      "longDescription": "Live"
+    },
+    "Exit": {
+      "code": "EXIT",
+      "shortDescription": "Exit",
+      "longDescription": "Exit"
+    }
+  },
+  "applicationStatus": {
+    "Completed": {
+      "code": "COMP",
+      "shortDescription": "Completed",
+      "longDescription": "Completed"
+    },
+    "Expired": {
+      "code": "EXPI",
+      "shortDescription": "Expired",
+      "longDescription": "Expired"
+    },
+    "Incomplete": {
+      "code": "INCO",
+      "shortDescription": "Incomplete",
+      "longDescription": "Incomplete"
+    },
+    "In Progress": {
+      "code": "INPR",
+      "shortDescription": "In Progress",
+      "longDescription": "In Progress"
+    },
+    "Ready to submit": {
+      "code": "RTOS",
+      "shortDescription": "Ready to submit",
+      "longDescription": "Ready to submit"
+    }
+  },
+  "assetClass": {
+    "Bonds": {
+      "code": "BOND",
+      "shortDescription": "Bonds",
+      "longDescription": "Bonds"
+    },
+    "Cash": {
+      "code": "CASH",
+      "shortDescription": "Cash",
+      "longDescription": "Cash"
+    },
+    "Equities": {
+      "code": "EQUT",
+      "shortDescription": "Equities",
+      "longDescription": "Equities"
+    },
+    "Exchanged-traded Commodities": {
+      "code": "ETCS",
+      "shortDescription": "Exchanged-traded Commodities",
+      "longDescription": "Exchanged-traded Commodities"
+    },
+    "Exchanged-traded Funds": {
+      "code": "ETFS",
+      "shortDescription": "Exchanged-traded Funds",
+      "longDescription": "Exchanged-traded Funds"
+    },
+    "Fixed Income": {
+      "code": "FIXI",
+      "shortDescription": "Fixed Income",
+      "longDescription": "Fixed Income"
+    },
+    "Gilts": {
+      "code": "GILT",
+      "shortDescription": "Gilts",
+      "longDescription": "Gilts"
+    },
+    "Investment Trusts": {
+      "code": "IVTS",
+      "shortDescription": "Investment Trusts",
+      "longDescription": "Investment Trusts"
+    },
+    "Listed Trusts": {
+      "code": "LTRU",
+      "shortDescription": "Listed Trusts",
+      "longDescription": "Listed Trusts"
+    },
+    "Off Platform": {
+      "code": "OFFP",
+      "shortDescription": "Off Platform",
+      "longDescription": "Off Platform"
+    },
+    "Preference Shares": {
+      "code": "PFSH",
+      "shortDescription": "Preference Shares",
+      "longDescription": "Preference Shares"
+    },
+    "Smoothed Unit Price Asset": {
+      "code": "SMUP",
+      "shortDescription": "Smoothed Unit Price Asset",
+      "longDescription": "Smoothed Unit Price Asset"
+    },
+    "Structured Product": {
+      "code": "STPR",
+      "shortDescription": "Structured Product",
+      "longDescription": "Structured Product"
+    },
+    "Unit Trusts": {
+      "code": "UTRU",
+      "shortDescription": "Unit Trusts",
+      "longDescription": "Unit Trusts"
+    },
+    "With Profit Fund": {
+      "code": "WPFD",
+      "shortDescription": "With Profit Fund",
+      "longDescription": "With Profit Fund"
+    }
+  },
+  "authorisedThirdPartyType": {
+    "Legal Guardian": {
+      "code": "LEGU",
+      "shortDescription": "Legal Guardian",
+      "longDescription": "Legal Guardian"
+    },
+    "Power of Attorney": {
+      "code": "POA",
+      "shortDescription": "PoA",
+      "longDescription": "Power of Attorney"
+    },
+    "Employer": {
+      "code": "EMPL",
+      "shortDescription": "Employer",
+      "longDescription": "Employer"
+    },
+    "Trustees": {
+      "code": "TRUS",
+      "shortDescription": "Trustees",
+      "longDescription": "Trustees"
+    },
+    "Contributor": {
+      "code": "CONT",
+      "shortDescription": "Contributor",
+      "longDescription": "Contributor"
+    },
+    "Info Only Third Party": {
+      "code": "IOTP",
+      "shortDescription": "Info Only Third Party",
+      "longDescription": "Info Only Third Party"
+    },
+    "Assignee": {
+      "code": "ASIG",
+      "shortDescription": "Assignee",
+      "longDescription": "Assignee"
+    }
+  },
+  "authorityLevel": {
+    "Full Authority": {
+      "code": "FLAT",
+      "shortDescription": "Full Authority",
+      "longDescription": "Full Authority"
+    },
+    "Information Only Authority": {
+      "code": "INFO",
+      "shortDescription": "Information Only Authority",
+      "longDescription": "Information Only Authority"
+    },
+    "Specific Rights": {
+      "code": "SPEC",
+      "shortDescription": "Specific Rights (check docs)",
+      "longDescription": "Specific Rights (check docs)"
+    }
+  },
+  "BCEType": {
+    "Designating Funds into Drawdown": {
+      "code": "BCE1",
+      "shortDescription": "Designating Funds into Drawdown",
+      "longDescription": ""
+    },
+    "Scheme Pension Entiitlements": {
+      "code": "BCE2",
+      "shortDescription": "Scheme Pension Entiitlements",
+      "longDescription": ""
+    },
+    "Increased Scheme Pension In Payment": {
+      "code": "BCE3",
+      "shortDescription": "Increased Scheme Pension In Payment",
+      "longDescription": ""
+    },
+    "Purchase of Lifetime Annuity": {
+      "code": "BCE4",
+      "shortDescription": "Purchase of Lifetime Annuity",
+      "longDescription": ""
+    },
+    "Age Based LTA Test on Crystallised Funds (BCE5A) - Dec Accounts": {
+      "code": "BC5A",
+      "shortDescription": "Age Based LTA Test on Crystallised Funds (BCE5A) - Dec Accounts",
+      "longDescription": ""
+    },
+    "Age Based LTA Test on Uncrystallised Funds (BCE5B) - Acc Accounts": {
+      "code": "BC5B",
+      "shortDescription": "Age Based LTA Test on Uncrystallised Funds (BCE5B) - Acc Accounts",
+      "longDescription": ""
+    },
+    "Relevant Lump Sums": {
+      "code": "BCE6",
+      "shortDescription": "Relevant Lump Sums",
+      "longDescription": ""
+    },
+    "Death Benefit on Lump Sum": {
+      "code": "BCE7",
+      "shortDescription": "Death Benefit on Lump Sum",
+      "longDescription": ""
+    },
+    "Transfer to Qualifying Registered Pension Scheme": {
+      "code": "BCE8",
+      "shortDescription": "Transfer to Qualifying Registered Pension Scheme",
+      "longDescription": ""
+    }
+  },
+  "beneficiaryRelationship": {
+    "Child": {
+      "code": "CHIL",
+      "shortDescription": "Child",
+      "longDescription": "Child"
+    },
+    "Other": {
+      "code": "OTHE",
+      "shortDescription": "Other",
+      "longDescription": "Other"
+    },
+    "Other Relative": {
+      "code": "OTHR",
+      "shortDescription": "Other Relative",
+      "longDescription": "Other Relative"
+    },
+    "Parent": {
+      "code": "PARE",
+      "shortDescription": "Parent",
+      "longDescription": "Parent"
+    },
+    "Partner": {
+      "code": "PART",
+      "shortDescription": "Partner",
+      "longDescription": "Partner"
+    },
+    "Sibling": {
+      "code": "SIBL",
+      "shortDescription": "Sibling",
+      "longDescription": "Sibling"
+    },
+    "Spouse": {
+      "code": "SPOU",
+      "shortDescription": "Spouse",
+      "longDescription": "Spouse"
+    },
+    "Trustee": {
+      "code": "TRUS",
+      "shortDescription": "Trustee",
+      "longDescription": "Trustee"
+    }
+  },
+  "beneficiaryType": {
+    "Charity": {
+      "code": "CHAR",
+      "shortDescription": "Charity",
+      "longDescription": "Charity"
+    },
+    "Trust": {
+      "code": "TRST",
+      "shortDescription": "Trust",
+      "longDescription": "Trust"
+    },
+    "Individual": {
+      "code": "INDI",
+      "shortDescription": "Individual",
+      "longDescription": "Individual"
+    }
+  },
+  "cashManagementOption": {
+    "Account Cash Target": {
+      "code": "ACCT",
+      "shortDescription": "Account Cash Target",
+      "longDescription": ""
+    },
+    "Cash In Model Portfolio": {
+      "code": "CSMD",
+      "shortDescription": "Cash In Model Portfolio",
+      "longDescription": ""
+    },
+    "Disinvestment when Cash Required": {
+      "code": "DSIN",
+      "shortDescription": "Disinvestment when Cash Required",
+      "longDescription": ""
+    },
+    "Product Cash Target": {
+      "code": "PRCT",
+      "shortDescription": "Product Cash Target",
+      "longDescription": ""
+    }
+  },
+  "chargeBasisType": {
+    "Percentage": {
+      "code": "PRCT",
+      "shortDescription": "Percentage",
+      "longDescription": ""
+    },
+    "Amount": {
+      "code": "AMNT",
+      "shortDescription": "Amount",
+      "longDescription": ""
+    }
+  },
+  "chargePeriodType": {
+    "Initial": {
+      "code": "INIT",
+      "shortDescription": "Initial",
+      "longDescription": "Initial"
+    },
+    "Adhoc": {
+      "code": "ADHC",
+      "shortDescription": "Adhoc",
+      "longDescription": "Adhoc"
+    },
+    "Ongoing": {
+      "code": "ONGO",
+      "shortDescription": "Ongoing",
+      "longDescription": "Ongoing"
+    },
+    "ASAP": {
+      "code": "ASAP",
+      "shortDescription": "ASAP",
+      "longDescription": "ASAP"
+    }
+  },
+  "clientCorrespondencePreferredDeliveryMethod": {
+    "Default": {
+      "code": "DFLT",
+      "shortDescription": "Default",
+      "longDescription": "Default"
+    },
+    "Email": {
+      "code": "EMAL",
+      "shortDescription": "Email",
+      "longDescription": "Email"
+    },
+    "Post": {
+      "code": "POST",
+      "shortDescription": "Post",
+      "longDescription": "Post"
+    },
+    "SMS": {
+      "code": "SMS",
+      "shortDescription": "SMS",
+      "longDescription": "SMS"
+    },
+    "Special": {
+      "code": "SPEC",
+      "shortDescription": "Special",
+      "longDescription": "Special"
+    }
+  },
+  "clientStatus": {
+    "Inactive Client": {
+      "code": "INAT",
+      "shortDescription": "Inactive Client",
+      "longDescription": "Inactive Client"
+    },
+    "Alive": {
+      "code": "ALIV",
+      "shortDescription": "Alive",
+      "longDescription": "Alive"
+    },
+    "Deceased": {
+      "code": "DEAD",
+      "shortDescription": "Deceased",
+      "longDescription": "Deceased"
+    }
+  },
+  "clientToClientRoleType": {
+    "Associated Employer": {
+      "code": "AER",
+      "shortDescription": "Associated Employer?",
+      "longDescription": "Associated Employer?"
+    },
+    "AIT": {
+      "code": "AIT",
+      "shortDescription": "",
+      "longDescription": ""
+    },
+    "CIT": {
+      "code": "CIT",
+      "shortDescription": "",
+      "longDescription": ""
+    },
+    "Contributor": {
+      "code": "CTB",
+      "shortDescription": "Contributor?",
+      "longDescription": "Contributor?"
+    },
+    "Employer": {
+      "code": "EMR",
+      "shortDescription": "Employer?",
+      "longDescription": "Employer?"
+    },
+    "Member": {
+      "code": "MBR",
+      "shortDescription": "Member?",
+      "longDescription": "Member?"
+    },
+    "SAS": {
+      "code": "SAS",
+      "shortDescription": "",
+      "longDescription": ""
+    }
+  },
+  "clientType": {
+    "An individual client": {
+      "code": "PERS",
+      "shortDescription": "An individual client",
+      "longDescription": "An individual client"
+    },
+    "Company": {
+      "code": "COMP",
+      "shortDescription": "Company (Business)",
+      "longDescription": "Company (Business)"
+    }
+  },
+  "clientTypeAltBasis": {
+    "An individual client": {
+      "code": "PERS",
+      "shortDescription": "",
+      "longDescription": ""
+    }
+  },
+  "contactType": {
+    "Address": {
+      "code": "ADDR",
+      "shortDescription": "Address",
+      "longDescription": "Address"
+    },
+    "Email": {
+      "code": "EMAL",
+      "shortDescription": "Email",
+      "longDescription": "Email"
+    },
+    "Mobile": {
+      "code": "MOBI",
+      "shortDescription": "Mobile",
+      "longDescription": "Mobile"
+    },
+    "Phone": {
+      "code": "PHON",
+      "shortDescription": "Phone",
+      "longDescription": "Home Phone"
+    },
+    "Fax": {
+      "code": "FAX",
+      "shortDescription": "Fax",
+      "longDescription": "Fax"
+    }
+  },
+  "contributionFrequencyType": {
+    "Monthly": {
+      "code": "MTHY",
+      "shortDescription": "Monthly",
+      "longDescription": "Monthly"
+    },
+    "Quarterly": {
+      "code": "QTLY",
+      "shortDescription": "Quarterly",
+      "longDescription": "Quarterly"
+    },
+    "Half yearly": {
+      "code": "HAYE",
+      "shortDescription": "Half yearly",
+      "longDescription": "Half yearly"
+    },
+    "Yearly": {
+      "code": "YRLY",
+      "shortDescription": "Yearly",
+      "longDescription": "Yearly"
+    },
+    "Lunar": {
+      "code": "LUNR",
+      "shortDescription": "Lunar",
+      "longDescription": "Lunar"
+    }
+  },
+  "contributionPayer": {
+    "Business": {
+      "code": "BUSI",
+      "shortDescription": "Business",
+      "longDescription": "Business"
+    },
+    "Client": {
+      "code": "CLIE",
+      "shortDescription": "Client",
+      "longDescription": "Client"
+    },
+    "Employer": {
+      "code": "EMPL",
+      "shortDescription": "Employer",
+      "longDescription": "Employer"
+    },
+    "Person": {
+      "code": "PERS",
+      "shortDescription": "Person",
+      "longDescription": "Person"
+    }
+  },
+  "contributorType": {
+    "Employer": {
+      "code": "EMPL",
+      "shortDescription": "Employer",
+      "longDescription": "Employer"
+    },
+    "PlanHolder": {
+      "code": "PLNH",
+      "shortDescription": "Plan Holder",
+      "longDescription": "Plan Holder"
+    },
+    "PolicyHolder": {
+      "code": "PLNH",
+      "shortDescription": "Policy Holder",
+      "longDescription": "Policy Holder"
+    }
+  },
+  "correspondenceType": {
+    "Existing Business Illustrations": {
+      "code": "EBI",
+      "shortDescription": "Existing Business Illustrations",
+      "longDescription": "Existing Business Illustrations"
+    },
+    "New Business journey": {
+      "code": "NWB",
+      "shortDescription": "New Business journey",
+      "longDescription": "New Business journey"
+    },
+    "Plan Changes": {
+      "code": "PCH",
+      "shortDescription": "Plan Changes",
+      "longDescription": "Plan Changes"
+    },
+    "Adviser Remuneration": {
+      "code": "REM",
+      "shortDescription": "Adviser Remuneration",
+      "longDescription": "Adviser Remuneration"
+    },
+    "Retirement Planning Tools": {
+      "code": "RPT",
+      "shortDescription": "Retirement Planning Tools",
+      "longDescription": "Retirement Planning Tools"
+    },
+    "Using My Savings / Exits": {
+      "code": "UMS",
+      "shortDescription": "Using My Savings / Exits",
+      "longDescription": "Using My Savings / Exits"
+    },
+    "Single Sign on": {
+      "code": "SSO",
+      "shortDescription": "Single Sign on",
+      "longDescription": "Single Sign on"
+    }
+  },
+  "countryType": {
+    "Afghanistan": {
+      "code": "AF",
+      "shortDescription": "Afghanistan",
+      "longDescription": "Afghanistan"
+    },
+    "Aland Islands": {
+      "code": "AX",
+      "shortDescription": "Aland Islands",
+      "longDescription": "Aland Islands"
+    },
+    "Albania": {
+      "code": "AL",
+      "shortDescription": "Albania",
+      "longDescription": "Albania"
+    },
+    "Algeria": {
+      "code": "DZ",
+      "shortDescription": "Algeria",
+      "longDescription": "Algeria"
+    },
+    "American Samoa": {
+      "code": "AS",
+      "shortDescription": "American Samoa",
+      "longDescription": "American Samoa"
+    },
+    "Andorra": {
+      "code": "AD",
+      "shortDescription": "Andorra",
+      "longDescription": "Andorra"
+    },
+    "Angola": {
+      "code": "AO",
+      "shortDescription": "Angola",
+      "longDescription": "Angola"
+    },
+    "Anguilla": {
+      "code": "AI",
+      "shortDescription": "Anguilla",
+      "longDescription": "Anguilla"
+    },
+    "Antarctica": {
+      "code": "AQ",
+      "shortDescription": "Antarctica",
+      "longDescription": "Antarctica"
+    },
+    "Antigua and Barbuda": {
+      "code": "AG",
+      "shortDescription": "Antigua and Barbuda",
+      "longDescription": "Antigua and Barbuda"
+    },
+    "Argentina": {
+      "code": "AR",
+      "shortDescription": "Argentina",
+      "longDescription": "Argentina"
+    },
+    "Armenia": {
+      "code": "AM",
+      "shortDescription": "Armenia",
+      "longDescription": "Armenia"
+    },
+    "Aruba": {
+      "code": "AW",
+      "shortDescription": "Aruba",
+      "longDescription": "Aruba"
+    },
+    "Australia": {
+      "code": "AU",
+      "shortDescription": "Australia",
+      "longDescription": "Australia"
+    },
+    "Austria": {
+      "code": "AT",
+      "shortDescription": "Austria",
+      "longDescription": "Austria"
+    },
+    "Azerbaijan": {
+      "code": "AZ",
+      "shortDescription": "Azerbaijan",
+      "longDescription": "Azerbaijan"
+    },
+    "Bahamas": {
+      "code": "BS",
+      "shortDescription": "Bahamas",
+      "longDescription": "Bahamas"
+    },
+    "Bahrain": {
+      "code": "BH",
+      "shortDescription": "Bahrain",
+      "longDescription": "Bahrain"
+    },
+    "Bangladesh": {
+      "code": "BD",
+      "shortDescription": "Bangladesh",
+      "longDescription": "Bangladesh"
+    },
+    "Barbados": {
+      "code": "BB",
+      "shortDescription": "Barbados",
+      "longDescription": "Barbados"
+    },
+    "Belarus": {
+      "code": "BY",
+      "shortDescription": "Belarus",
+      "longDescription": "Belarus"
+    },
+    "Belgium": {
+      "code": "BE",
+      "shortDescription": "Belgium",
+      "longDescription": "Belgium"
+    },
+    "Belize": {
+      "code": "BZ",
+      "shortDescription": "Belize",
+      "longDescription": "Belize"
+    },
+    "Benin": {
+      "code": "BJ",
+      "shortDescription": "Benin",
+      "longDescription": "Benin"
+    },
+    "Bermuda": {
+      "code": "BM",
+      "shortDescription": "Bermuda",
+      "longDescription": "Bermuda"
+    },
+    "Bhutan": {
+      "code": "BT",
+      "shortDescription": "Bhutan",
+      "longDescription": "Bhutan"
+    },
+    "Bolivia": {
+      "code": "BO",
+      "shortDescription": "Bolivia",
+      "longDescription": "Bolivia"
+    },
+    "Bonaire Saint Eustatius, and Saba Islands": {
+      "code": "BQ",
+      "shortDescription": "Bonaire Saint Eustatius, and Saba Islands",
+      "longDescription": "Bonaire Saint Eustatius, and Saba Islands"
+    },
+    "Bosnia-Herzegovina": {
+      "code": "BA",
+      "shortDescription": "Bosnia-Herzegovina",
+      "longDescription": "Bosnia-Herzegovina"
+    },
+    "Botswana": {
+      "code": "BW",
+      "shortDescription": "Botswana",
+      "longDescription": "Botswana"
+    },
+    "Bouvet Island": {
+      "code": "BV",
+      "shortDescription": "Bouvet Island",
+      "longDescription": "Bouvet Island"
+    },
+    "Brazil": {
+      "code": "BR",
+      "shortDescription": "Brazil",
+      "longDescription": "Brazil"
+    },
+    "British Indian Ocean Territory": {
+      "code": "IO",
+      "shortDescription": "British Indian Ocean Territory",
+      "longDescription": "British Indian Ocean Territory"
+    },
+    "Brunei Darussalam": {
+      "code": "BN",
+      "shortDescription": "Brunei Darussalam",
+      "longDescription": "Brunei Darussalam"
+    },
+    "Bulgaria": {
+      "code": "BG",
+      "shortDescription": "Bulgaria",
+      "longDescription": "Bulgaria"
+    },
+    "Burkina Faso": {
+      "code": "BF",
+      "shortDescription": "Burkina Faso",
+      "longDescription": "Burkina Faso"
+    },
+    "Burundi": {
+      "code": "BI",
+      "shortDescription": "Burundi",
+      "longDescription": "Burundi"
+    },
+    "Cambodia": {
+      "code": "KH",
+      "shortDescription": "Cambodia",
+      "longDescription": "Cambodia"
+    },
+    "Cameroon": {
+      "code": "CM",
+      "shortDescription": "Cameroon",
+      "longDescription": "Cameroon"
+    },
+    "Canada": {
+      "code": "CA",
+      "shortDescription": "Canada",
+      "longDescription": "Canada"
+    },
+    "Cape Verde": {
+      "code": "CV",
+      "shortDescription": "Cape Verde",
+      "longDescription": "Cape Verde"
+    },
+    "Cayman Islands": {
+      "code": "KY",
+      "shortDescription": "Cayman Islands",
+      "longDescription": "Cayman Islands"
+    },
+    "Central African Republic": {
+      "code": "CF",
+      "shortDescription": "Central African Republic",
+      "longDescription": "Central African Republic"
+    },
+    "Chad": {
+      "code": "TD",
+      "shortDescription": "Chad",
+      "longDescription": "Chad"
+    },
+    "Chile": {
+      "code": "CL",
+      "shortDescription": "Chile",
+      "longDescription": "Chile"
+    },
+    "China": {
+      "code": "CN",
+      "shortDescription": "China",
+      "longDescription": "China"
+    },
+    "Christmas Island": {
+      "code": "CX",
+      "shortDescription": "Christmas Island",
+      "longDescription": "Christmas Island"
+    },
+    "Cocos (Keeling) Islands": {
+      "code": "CC",
+      "shortDescription": "Cocos (Keeling) Islands",
+      "longDescription": "Cocos (Keeling) Islands"
+    },
+    "Colombia": {
+      "code": "CO",
+      "shortDescription": "Colombia",
+      "longDescription": "Colombia"
+    },
+    "Comoros": {
+      "code": "KM",
+      "shortDescription": "Comoros",
+      "longDescription": "Comoros"
+    },
+    "Congo, Democratic Republic of": {
+      "code": "ZR",
+      "shortDescription": "Congo, Democratic Republic of (was Zaire)",
+      "longDescription": "Congo, Democratic Republic of (was Zaire)"
+    },
+    "Congo, People's Republic of": {
+      "code": "CG",
+      "shortDescription": "Congo, People's Republic of",
+      "longDescription": "Congo, People's Republic of"
+    },
+    "Cook Islands": {
+      "code": "CK",
+      "shortDescription": "Cook Islands",
+      "longDescription": "Cook Islands"
+    },
+    "Costa Rica": {
+      "code": "CR",
+      "shortDescription": "Costa Rica",
+      "longDescription": "Costa Rica"
+    },
+    "Croatia": {
+      "code": "HR",
+      "shortDescription": "Croatia",
+      "longDescription": "Croatia"
+    },
+    "Cuba": {
+      "code": "CU",
+      "shortDescription": "Cuba",
+      "longDescription": "Cuba"
+    },
+    "Curacao": {
+      "code": "CW",
+      "shortDescription": "Curacao",
+      "longDescription": "Curacao"
+    },
+    "Cyprus": {
+      "code": "CY",
+      "shortDescription": "Cyprus",
+      "longDescription": "Cyprus"
+    },
+    "Czech Republic": {
+      "code": "CZ",
+      "shortDescription": "Czech Republic",
+      "longDescription": "Czech Republic"
+    },
+    "Denmark": {
+      "code": "DK",
+      "shortDescription": "Denmark",
+      "longDescription": "Denmark"
+    },
+    "Djibouti": {
+      "code": "DJ",
+      "shortDescription": "Djibouti",
+      "longDescription": "Djibouti"
+    },
+    "Dominica": {
+      "code": "DM",
+      "shortDescription": "Dominica",
+      "longDescription": "Dominica"
+    },
+    "Dominican Republic": {
+      "code": "DO",
+      "shortDescription": "Dominican Republic",
+      "longDescription": "Dominican Republic"
+    },
+    "East Timor": {
+      "code": "TP",
+      "shortDescription": "East Timor",
+      "longDescription": "East Timor"
+    },
+    "Ecuador": {
+      "code": "EC",
+      "shortDescription": "Ecuador",
+      "longDescription": "Ecuador"
+    },
+    "Egypt": {
+      "code": "EG",
+      "shortDescription": "Egypt",
+      "longDescription": "Egypt"
+    },
+    "El Salvador": {
+      "code": "SV",
+      "shortDescription": "El Salvador",
+      "longDescription": "El Salvador"
+    },
+    "Equatorial Guinea": {
+      "code": "GQ",
+      "shortDescription": "Equatorial Guinea",
+      "longDescription": "Equatorial Guinea"
+    },
+    "Eritrea": {
+      "code": "ER",
+      "shortDescription": "Eritrea",
+      "longDescription": "Eritrea"
+    },
+    "Estonia": {
+      "code": "EE",
+      "shortDescription": "Estonia",
+      "longDescription": "Estonia"
+    },
+    "Ethiopia": {
+      "code": "ET",
+      "shortDescription": "Ethiopia",
+      "longDescription": "Ethiopia"
+    },
+    "Falkland Islands": {
+      "code": "FK",
+      "shortDescription": "Falkland Islands",
+      "longDescription": "Falkland Islands"
+    },
+    "Faroe Islands": {
+      "code": "FO",
+      "shortDescription": "Faroe Islands",
+      "longDescription": "Faroe Islands"
+    },
+    "Fiji": {
+      "code": "FJ",
+      "shortDescription": "Fiji",
+      "longDescription": "Fiji"
+    },
+    "Finland": {
+      "code": "FI",
+      "shortDescription": "Finland",
+      "longDescription": "Finland"
+    },
+    "Former Czechoslovakia": {
+      "code": "CS",
+      "shortDescription": "Former Czechoslovakia",
+      "longDescription": "Former Czechoslovakia"
+    },
+    "Former USSR": {
+      "code": "SU",
+      "shortDescription": "Former USSR",
+      "longDescription": "Former USSR"
+    },
+    "France": {
+      "code": "FR",
+      "shortDescription": "France",
+      "longDescription": "France"
+    },
+    "France (European Territory)": {
+      "code": "FX",
+      "shortDescription": "France (European Territory)",
+      "longDescription": "France (European Territory)"
+    },
+    "French Guiana": {
+      "code": "GF",
+      "shortDescription": "French Guiana",
+      "longDescription": "French Guiana"
+    },
+    "French Southern Territories": {
+      "code": "TF",
+      "shortDescription": "French Southern Territories",
+      "longDescription": "French Southern Territories"
+    },
+    "Gabon": {
+      "code": "GA",
+      "shortDescription": "Gabon",
+      "longDescription": "Gabon"
+    },
+    "Gambia": {
+      "code": "GM",
+      "shortDescription": "Gambia",
+      "longDescription": "Gambia"
+    },
+    "Georgia": {
+      "code": "GE",
+      "shortDescription": "Georgia",
+      "longDescription": "Georgia"
+    },
+    "Germany": {
+      "code": "DE",
+      "shortDescription": "Germany",
+      "longDescription": "Germany"
+    },
+    "Ghana": {
+      "code": "GH",
+      "shortDescription": "Ghana",
+      "longDescription": "Ghana"
+    },
+    "Gibraltar": {
+      "code": "GI",
+      "shortDescription": "Gibraltar",
+      "longDescription": "Gibraltar"
+    },
+    "Greece": {
+      "code": "GR",
+      "shortDescription": "Greece",
+      "longDescription": "Greece"
+    },
+    "Greenland": {
+      "code": "GL",
+      "shortDescription": "Greenland",
+      "longDescription": "Greenland"
+    },
+    "Grenada": {
+      "code": "GD",
+      "shortDescription": "Grenada",
+      "longDescription": "Grenada"
+    },
+    "Guadeloupe (French)": {
+      "code": "GP",
+      "shortDescription": "Guadeloupe (French)",
+      "longDescription": "Guadeloupe (French)"
+    },
+    "Guam (USA)": {
+      "code": "GU",
+      "shortDescription": "Guam (USA)",
+      "longDescription": "Guam (USA)"
+    },
+    "Guatemala": {
+      "code": "GT",
+      "shortDescription": "Guatemala",
+      "longDescription": "Guatemala"
+    },
+    "Guernsey": {
+      "code": "GG",
+      "shortDescription": "Guernsey",
+      "longDescription": "Guernsey"
+    },
+    "Guinea": {
+      "code": "GN",
+      "shortDescription": "Guinea",
+      "longDescription": "Guinea"
+    },
+    "Guinea Bissau": {
+      "code": "GW",
+      "shortDescription": "Guinea Bissau",
+      "longDescription": "Guinea Bissau"
+    },
+    "Guyana": {
+      "code": "GY",
+      "shortDescription": "Guyana",
+      "longDescription": "Guyana"
+    },
+    "Haiti": {
+      "code": "HT",
+      "shortDescription": "Haiti",
+      "longDescription": "Haiti"
+    },
+    "Heard and McDonald Islands": {
+      "code": "HM",
+      "shortDescription": "Heard and McDonald Islands",
+      "longDescription": "Heard and McDonald Islands"
+    },
+    "Honduras": {
+      "code": "HN",
+      "shortDescription": "Honduras",
+      "longDescription": "Honduras"
+    },
+    "Hong Kong": {
+      "code": "HK",
+      "shortDescription": "Hong Kong",
+      "longDescription": "Hong Kong"
+    },
+    "Hungary": {
+      "code": "HU",
+      "shortDescription": "Hungary",
+      "longDescription": "Hungary"
+    },
+    "Iceland": {
+      "code": "IS",
+      "shortDescription": "Iceland",
+      "longDescription": "Iceland"
+    },
+    "India": {
+      "code": "IN",
+      "shortDescription": "India",
+      "longDescription": "India"
+    },
+    "Indonesia": {
+      "code": "ID",
+      "shortDescription": "Indonesia",
+      "longDescription": "Indonesia"
+    },
+    "Iran": {
+      "code": "IR",
+      "shortDescription": "Iran",
+      "longDescription": "Iran"
+    },
+    "Iraq": {
+      "code": "IQ",
+      "shortDescription": "Iraq",
+      "longDescription": "Iraq"
+    },
+    "Ireland": {
+      "code": "IE",
+      "shortDescription": "Ireland",
+      "longDescription": "Ireland"
+    },
+    "Isle of Man, The": {
+      "code": "IM",
+      "shortDescription": "Isle of Man, The",
+      "longDescription": "Isle of Man, The"
+    },
+    "Israel": {
+      "code": "IL",
+      "shortDescription": "Israel",
+      "longDescription": "Israel"
+    },
+    "Italy": {
+      "code": "IT",
+      "shortDescription": "Italy",
+      "longDescription": "Italy"
+    },
+    "Ivory Coast": {
+      "code": "CI",
+      "shortDescription": "Ivory Coast (Cote D'Ivoire)",
+      "longDescription": "Ivory Coast (Cote D'Ivoire)"
+    },
+    "Jamaica": {
+      "code": "JM",
+      "shortDescription": "Jamaica",
+      "longDescription": "Jamaica"
+    },
+    "Japan": {
+      "code": "JP",
+      "shortDescription": "Japan",
+      "longDescription": "Japan"
+    },
+    "Jersey": {
+      "code": "JE",
+      "shortDescription": "Jersey",
+      "longDescription": "Jersey"
+    },
+    "Jordan": {
+      "code": "JO",
+      "shortDescription": "Jordan",
+      "longDescription": "Jordan"
+    },
+    "Kazakhstan": {
+      "code": "KZ",
+      "shortDescription": "Kazakhstan",
+      "longDescription": "Kazakhstan"
+    },
+    "Kenya": {
+      "code": "KE",
+      "shortDescription": "Kenya",
+      "longDescription": "Kenya"
+    },
+    "Kiribati": {
+      "code": "KI",
+      "shortDescription": "Kiribati",
+      "longDescription": "Kiribati"
+    },
+    "Kuwait": {
+      "code": "KW",
+      "shortDescription": "Kuwait",
+      "longDescription": "Kuwait"
+    },
+    "Kyrgyzstan": {
+      "code": "KG",
+      "shortDescription": "Kyrgyzstan",
+      "longDescription": "Kyrgyzstan"
+    },
+    "Laos": {
+      "code": "LA",
+      "shortDescription": "Laos",
+      "longDescription": "Laos"
+    },
+    "Latvia": {
+      "code": "LV",
+      "shortDescription": "Latvia",
+      "longDescription": "Latvia"
+    },
+    "Lebanon": {
+      "code": "LB",
+      "shortDescription": "Lebanon",
+      "longDescription": "Lebanon"
+    },
+    "Lesotho": {
+      "code": "LS",
+      "shortDescription": "Lesotho",
+      "longDescription": "Lesotho"
+    },
+    "Liberia": {
+      "code": "LR",
+      "shortDescription": "Liberia",
+      "longDescription": "Liberia"
+    },
+    "Libya": {
+      "code": "LY",
+      "shortDescription": "Libya",
+      "longDescription": "Libya"
+    },
+    "Liechtenstein": {
+      "code": "LI",
+      "shortDescription": "Liechtenstein",
+      "longDescription": "Liechtenstein"
+    },
+    "Lithuania": {
+      "code": "LT",
+      "shortDescription": "Lithuania",
+      "longDescription": "Lithuania"
+    },
+    "Luxembourg": {
+      "code": "LU",
+      "shortDescription": "Luxembourg",
+      "longDescription": "Luxembourg"
+    },
+    "Macau": {
+      "code": "MO",
+      "shortDescription": "Macau",
+      "longDescription": "Macau"
+    },
+    "Macedonia": {
+      "code": "MK",
+      "shortDescription": "Macedonia",
+      "longDescription": "Macedonia"
+    },
+    "Madagascar": {
+      "code": "MG",
+      "shortDescription": "Madagascar",
+      "longDescription": "Madagascar"
+    },
+    "Malawi": {
+      "code": "MW",
+      "shortDescription": "Malawi",
+      "longDescription": "Malawi"
+    },
+    "Malaysia": {
+      "code": "MY",
+      "shortDescription": "Malaysia",
+      "longDescription": "Malaysia"
+    },
+    "Maldives": {
+      "code": "MV",
+      "shortDescription": "Maldives",
+      "longDescription": "Maldives"
+    },
+    "Mali": {
+      "code": "ML",
+      "shortDescription": "Mali",
+      "longDescription": "Mali"
+    },
+    "Malta": {
+      "code": "MT",
+      "shortDescription": "Malta",
+      "longDescription": "Malta"
+    },
+    "Marshall Islands": {
+      "code": "MH",
+      "shortDescription": "Marshall Islands",
+      "longDescription": "Marshall Islands"
+    },
+    "Martinique (French)": {
+      "code": "MQ",
+      "shortDescription": "Martinique (French)",
+      "longDescription": "Martinique (French)"
+    },
+    "Mauritania": {
+      "code": "MR",
+      "shortDescription": "Mauritania",
+      "longDescription": "Mauritania"
+    },
+    "Mauritius": {
+      "code": "MU",
+      "shortDescription": "Mauritius",
+      "longDescription": "Mauritius"
+    },
+    "Mayotte": {
+      "code": "YT",
+      "shortDescription": "Mayotte",
+      "longDescription": "Mayotte"
+    },
+    "Mexico": {
+      "code": "MX",
+      "shortDescription": "Mexico",
+      "longDescription": "Mexico"
+    },
+    "Micronesia": {
+      "code": "FM",
+      "shortDescription": "Micronesia",
+      "longDescription": "Micronesia"
+    },
+    "Moldova": {
+      "code": "MD",
+      "shortDescription": "Moldova",
+      "longDescription": "Moldova"
+    },
+    "Monaco": {
+      "code": "MC",
+      "shortDescription": "Monaco",
+      "longDescription": "Monaco"
+    },
+    "Mongolia": {
+      "code": "MN",
+      "shortDescription": "Mongolia",
+      "longDescription": "Mongolia"
+    },
+    "Montenegro": {
+      "code": "ME",
+      "shortDescription": "Montenegro",
+      "longDescription": "Montenegro"
+    },
+    "Montserrat": {
+      "code": "MS",
+      "shortDescription": "Montserrat",
+      "longDescription": "Montserrat"
+    },
+    "Morocco": {
+      "code": "MA",
+      "shortDescription": "Morocco",
+      "longDescription": "Morocco"
+    },
+    "Mozambique": {
+      "code": "MZ",
+      "shortDescription": "Mozambique",
+      "longDescription": "Mozambique"
+    },
+    "Myanmar": {
+      "code": "MM",
+      "shortDescription": "Myanmar",
+      "longDescription": "Myanmar"
+    },
+    "Namibia": {
+      "code": "NA",
+      "shortDescription": "Namibia",
+      "longDescription": "Namibia"
+    },
+    "Nauru": {
+      "code": "NR",
+      "shortDescription": "Nauru",
+      "longDescription": "Nauru"
+    },
+    "Nepal": {
+      "code": "NP",
+      "shortDescription": "Nepal",
+      "longDescription": "Nepal"
+    },
+    "Netherlands": {
+      "code": "NL",
+      "shortDescription": "Netherlands",
+      "longDescription": "Netherlands"
+    },
+    "Netherlands Antilles": {
+      "code": "AN",
+      "shortDescription": "Netherlands Antilles",
+      "longDescription": "Netherlands Antilles"
+    },
+    "Neutral Zone": {
+      "code": "NT",
+      "shortDescription": "Neutral Zone",
+      "longDescription": "Neutral Zone"
+    },
+    "New Caledonia (French)": {
+      "code": "NC",
+      "shortDescription": "New Caledonia (French)",
+      "longDescription": "New Caledonia (French)"
+    },
+    "New Zealand": {
+      "code": "NZ",
+      "shortDescription": "New Zealand",
+      "longDescription": "New Zealand"
+    },
+    "Nicaragua": {
+      "code": "NI",
+      "shortDescription": "Nicaragua",
+      "longDescription": "Nicaragua"
+    },
+    "Niger": {
+      "code": "NE",
+      "shortDescription": "Niger",
+      "longDescription": "Niger"
+    },
+    "Nigeria": {
+      "code": "NG",
+      "shortDescription": "Nigeria",
+      "longDescription": "Nigeria"
+    },
+    "Niue": {
+      "code": "NU",
+      "shortDescription": "Niue",
+      "longDescription": "Niue"
+    },
+    "Norfolk Island": {
+      "code": "NF",
+      "shortDescription": "Norfolk Island",
+      "longDescription": "Norfolk Island"
+    },
+    "North Korea": {
+      "code": "KP",
+      "shortDescription": "North Korea",
+      "longDescription": "North Korea"
+    },
+    "Northern Mariana Islands": {
+      "code": "MP",
+      "shortDescription": "Northern Mariana Islands",
+      "longDescription": "Northern Mariana Islands"
+    },
+    "Norway": {
+      "code": "NO",
+      "shortDescription": "Norway",
+      "longDescription": "Norway"
+    },
+    "Oman": {
+      "code": "OM",
+      "shortDescription": "Oman",
+      "longDescription": "Oman"
+    },
+    "Other": {
+      "code": "OT",
+      "shortDescription": "Other",
+      "longDescription": "Other"
+    },
+    "Pakistan": {
+      "code": "PK",
+      "shortDescription": "Pakistan",
+      "longDescription": "Pakistan"
+    },
+    "Palau": {
+      "code": "PW",
+      "shortDescription": "Palau",
+      "longDescription": "Palau"
+    },
+    "Palestinian Territory, Occupied": {
+      "code": "PS",
+      "shortDescription": "Palestinian Territory, Occupied",
+      "longDescription": "Palestinian Territory, Occupied"
+    },
+    "Panama": {
+      "code": "PA",
+      "shortDescription": "Panama",
+      "longDescription": "Panama"
+    },
+    "Papua New Guinea": {
+      "code": "PG",
+      "shortDescription": "Papua New Guinea",
+      "longDescription": "Papua New Guinea"
+    },
+    "Paraguay": {
+      "code": "PY",
+      "shortDescription": "Paraguay",
+      "longDescription": "Paraguay"
+    },
+    "Peru": {
+      "code": "PE",
+      "shortDescription": "Peru",
+      "longDescription": "Peru"
+    },
+    "Philippines": {
+      "code": "PH",
+      "shortDescription": "Philippines",
+      "longDescription": "Philippines"
+    },
+    "Pitcairn Island": {
+      "code": "PN",
+      "shortDescription": "Pitcairn Island",
+      "longDescription": "Pitcairn Island"
+    },
+    "Poland": {
+      "code": "PL",
+      "shortDescription": "Poland",
+      "longDescription": "Poland"
+    },
+    "Polynesia (French)": {
+      "code": "PF",
+      "shortDescription": "Polynesia (French)",
+      "longDescription": "Polynesia (French)"
+    },
+    "Portugal": {
+      "code": "PT",
+      "shortDescription": "Portugal",
+      "longDescription": "Portugal"
+    },
+    "Puerto Rico": {
+      "code": "PR",
+      "shortDescription": "Puerto Rico",
+      "longDescription": "Puerto Rico"
+    },
+    "Qatar": {
+      "code": "QA",
+      "shortDescription": "Qatar",
+      "longDescription": "Qatar"
+    },
+    "Reunion (French)": {
+      "code": "RE",
+      "shortDescription": "Reunion (French)",
+      "longDescription": "Reunion (French)"
+    },
+    "Romania": {
+      "code": "RO",
+      "shortDescription": "Romania",
+      "longDescription": "Romania"
+    },
+    "Russia": {
+      "code": "RU",
+      "shortDescription": "Russia",
+      "longDescription": "Russia"
+    },
+    "Rwanda": {
+      "code": "RW",
+      "shortDescription": "Rwanda",
+      "longDescription": "Rwanda"
+    },
+    "S. Georgia & S. Sandwich Isls.": {
+      "code": "GS",
+      "shortDescription": "S. Georgia & S. Sandwich Isls.",
+      "longDescription": "S. Georgia & S. Sandwich Isls."
+    },
+    "Saint Barthelemy": {
+      "code": "BL",
+      "shortDescription": "Saint Barthelemy",
+      "longDescription": "Saint Barthelemy"
+    },
+    "Saint Helena": {
+      "code": "SH",
+      "shortDescription": "Saint Helena",
+      "longDescription": "Saint Helena"
+    },
+    "Saint Kitts & Nevis Anguilla": {
+      "code": "KN",
+      "shortDescription": "Saint Kitts & Nevis Anguilla",
+      "longDescription": "Saint Kitts & Nevis Anguilla"
+    },
+    "Saint Lucia": {
+      "code": "LC",
+      "shortDescription": "Saint Lucia",
+      "longDescription": "Saint Lucia"
+    },
+    "Saint Martin (Dutch part)": {
+      "code": "SX",
+      "shortDescription": "Saint Martin (Dutch part)",
+      "longDescription": "Saint Martin (Dutch part)"
+    },
+    "Saint Martin (French part)": {
+      "code": "MF",
+      "shortDescription": "Saint Martin (French part)",
+      "longDescription": "Saint Martin (French part)"
+    },
+    "Saint Pierre and Miquelon": {
+      "code": "PM",
+      "shortDescription": "Saint Pierre and Miquelon",
+      "longDescription": "Saint Pierre and Miquelon"
+    },
+    "Saint Vincent & Grenadines": {
+      "code": "VC",
+      "shortDescription": "Saint Vincent & Grenadines",
+      "longDescription": "Saint Vincent & Grenadines"
+    },
+    "Samoa": {
+      "code": "WS",
+      "shortDescription": "Samoa",
+      "longDescription": "Samoa"
+    },
+    "San Marino": {
+      "code": "SM",
+      "shortDescription": "San Marino",
+      "longDescription": "San Marino"
+    },
+    "Sao Tome and Principe": {
+      "code": "ST",
+      "shortDescription": "Sao Tome and Principe",
+      "longDescription": "Sao Tome and Principe"
+    },
+    "Saudi Arabia": {
+      "code": "SA",
+      "shortDescription": "Saudi Arabia",
+      "longDescription": "Saudi Arabia"
+    },
+    "Senegal": {
+      "code": "SN",
+      "shortDescription": "Senegal",
+      "longDescription": "Senegal"
+    },
+    "Serbia": {
+      "code": "RS",
+      "shortDescription": "Serbia",
+      "longDescription": "Serbia"
+    },
+    "Seychelles": {
+      "code": "SC",
+      "shortDescription": "Seychelles",
+      "longDescription": "Seychelles"
+    },
+    "Sierra Leone": {
+      "code": "SL",
+      "shortDescription": "Sierra Leone",
+      "longDescription": "Sierra Leone"
+    },
+    "Singapore": {
+      "code": "SG",
+      "shortDescription": "Singapore",
+      "longDescription": "Singapore"
+    },
+    "Slovak Republic": {
+      "code": "SK",
+      "shortDescription": "Slovak Republic",
+      "longDescription": "Slovak Republic"
+    },
+    "Slovenia": {
+      "code": "SI",
+      "shortDescription": "Slovenia",
+      "longDescription": "Slovenia"
+    },
+    "Solomon Islands": {
+      "code": "SB",
+      "shortDescription": "Solomon Islands",
+      "longDescription": "Solomon Islands"
+    },
+    "Somalia": {
+      "code": "SO",
+      "shortDescription": "Somalia",
+      "longDescription": "Somalia"
+    },
+    "South Africa": {
+      "code": "ZA",
+      "shortDescription": "South Africa",
+      "longDescription": "South Africa"
+    },
+    "South Korea": {
+      "code": "KR",
+      "shortDescription": "South Korea",
+      "longDescription": "South Korea"
+    },
+    "South Sudan": {
+      "code": "SS",
+      "shortDescription": "South Sudan",
+      "longDescription": "South Sudan"
+    },
+    "Spain": {
+      "code": "ES",
+      "shortDescription": "Spain",
+      "longDescription": "Spain"
+    },
+    "Sri Lanka": {
+      "code": "LK",
+      "shortDescription": "Sri Lanka",
+      "longDescription": "Sri Lanka"
+    },
+    "Sudan": {
+      "code": "SD",
+      "shortDescription": "Sudan",
+      "longDescription": "Sudan"
+    },
+    "Suriname": {
+      "code": "SR",
+      "shortDescription": "Suriname",
+      "longDescription": "Suriname"
+    },
+    "Svalbard and Jan Mayen Islands": {
+      "code": "SJ",
+      "shortDescription": "Svalbard and Jan Mayen Islands",
+      "longDescription": "Svalbard and Jan Mayen Islands"
+    },
+    "Swaziland": {
+      "code": "SZ",
+      "shortDescription": "Swaziland",
+      "longDescription": "Swaziland"
+    },
+    "Sweden": {
+      "code": "SE",
+      "shortDescription": "Sweden",
+      "longDescription": "Sweden"
+    },
+    "Switzerland": {
+      "code": "CH",
+      "shortDescription": "Switzerland",
+      "longDescription": "Switzerland"
+    },
+    "Syria": {
+      "code": "SY",
+      "shortDescription": "Syria",
+      "longDescription": "Syria"
+    },
+    "Taiwan": {
+      "code": "TW",
+      "shortDescription": "Taiwan",
+      "longDescription": "Taiwan"
+    },
+    "Tajikistan": {
+      "code": "TJ",
+      "shortDescription": "Tajikistan",
+      "longDescription": "Tajikistan"
+    },
+    "Tanzania": {
+      "code": "TZ",
+      "shortDescription": "Tanzania",
+      "longDescription": "Tanzania"
+    },
+    "Thailand": {
+      "code": "TH",
+      "shortDescription": "Thailand",
+      "longDescription": "Thailand"
+    },
+    "Togo": {
+      "code": "TG",
+      "shortDescription": "Togo",
+      "longDescription": "Togo"
+    },
+    "Tokelau": {
+      "code": "TK",
+      "shortDescription": "Tokelau",
+      "longDescription": "Tokelau"
+    },
+    "Tonga": {
+      "code": "TO",
+      "shortDescription": "Tonga",
+      "longDescription": "Tonga"
+    },
+    "Trinidad and Tobago": {
+      "code": "TT",
+      "shortDescription": "Trinidad and Tobago",
+      "longDescription": "Trinidad and Tobago"
+    },
+    "Tunisia": {
+      "code": "TN",
+      "shortDescription": "Tunisia",
+      "longDescription": "Tunisia"
+    },
+    "Turkey": {
+      "code": "TR",
+      "shortDescription": "Turkey",
+      "longDescription": "Turkey"
+    },
+    "Turkmenistan": {
+      "code": "TM",
+      "shortDescription": "Turkmenistan",
+      "longDescription": "Turkmenistan"
+    },
+    "Turks and Caicos Islands": {
+      "code": "TC",
+      "shortDescription": "Turks and Caicos Islands",
+      "longDescription": "Turks and Caicos Islands"
+    },
+    "Tuvalu": {
+      "code": "TV",
+      "shortDescription": "Tuvalu",
+      "longDescription": "Tuvalu"
+    },
+    "USA Minor Outlying Islands": {
+      "code": "UM",
+      "shortDescription": "USA Minor Outlying Islands",
+      "longDescription": "USA Minor Outlying Islands"
+    },
+    "Uganda": {
+      "code": "UG",
+      "shortDescription": "Uganda",
+      "longDescription": "Uganda"
+    },
+    "Ukraine": {
+      "code": "UA",
+      "shortDescription": "Ukraine",
+      "longDescription": "Ukraine"
+    },
+    "United Arab Emirates": {
+      "code": "AE",
+      "shortDescription": "United Arab Emirates",
+      "longDescription": "United Arab Emirates"
+    },
+    "United Kingdom": {
+      "code": "UK",
+      "shortDescription": "United Kingdom",
+      "longDescription": "United Kingdom"
+    },
+    "United States": {
+      "code": "US",
+      "shortDescription": "United States",
+      "longDescription": "United States"
+    },
+    "Uruguay": {
+      "code": "UY",
+      "shortDescription": "Uruguay",
+      "longDescription": "Uruguay"
+    },
+    "Uzbekistan": {
+      "code": "UZ",
+      "shortDescription": "Uzbekistan",
+      "longDescription": "Uzbekistan"
+    },
+    "Vanuatu": {
+      "code": "VU",
+      "shortDescription": "Vanuatu",
+      "longDescription": "Vanuatu"
+    },
+    "Vatican City State": {
+      "code": "VA",
+      "shortDescription": "Vatican City State",
+      "longDescription": "Vatican City State"
+    },
+    "Venezuela": {
+      "code": "VE",
+      "shortDescription": "Venezuela",
+      "longDescription": "Venezuela"
+    },
+    "Vietnam": {
+      "code": "VN",
+      "shortDescription": "Vietnam",
+      "longDescription": "Vietnam"
+    },
+    "Virgin Islands (British)": {
+      "code": "VG",
+      "shortDescription": "Virgin Islands (British)",
+      "longDescription": "Virgin Islands (British)"
+    },
+    "Virgin Islands (USA)": {
+      "code": "VI",
+      "shortDescription": "Virgin Islands (USA)",
+      "longDescription": "Virgin Islands (USA)"
+    },
+    "Wallis and Futuna Islands": {
+      "code": "WF",
+      "shortDescription": "Wallis and Futuna Islands",
+      "longDescription": "Wallis and Futuna Islands"
+    },
+    "Western Sahara": {
+      "code": "EH",
+      "shortDescription": "Western Sahara",
+      "longDescription": "Western Sahara"
+    },
+    "Yemen": {
+      "code": "YE",
+      "shortDescription": "Yemen",
+      "longDescription": "Yemen"
+    },
+    "Yugoslavia": {
+      "code": "YU",
+      "shortDescription": "Yugoslavia",
+      "longDescription": "Yugoslavia"
+    },
+    "Zambia": {
+      "code": "ZM",
+      "shortDescription": "Zambia",
+      "longDescription": "Zambia"
+    },
+    "Zimbabwe": {
+      "code": "ZW",
+      "shortDescription": "Zimbabwe",
+      "longDescription": "Zimbabwe"
+    }
+  },
+  "directDebitStatus": {
+    "Cancelled": {
+      "code": "CANC",
+      "shortDescription": "Cancelled",
+      "longDescription": "Cancelled"
+    },
+    "Active": {
+      "code": "ACTI",
+      "shortDescription": "Active",
+      "longDescription": "Active"
+    }
+  },
+  "discretionaryPaymentType": {
+    "RL discretion": {
+      "code": "RLDI",
+      "shortDescription": "Our discretion",
+      "longDescription": "RL discretion"
+    },
+    "At my direction": {
+      "code": "ATMY",
+      "shortDescription": "Your direction",
+      "longDescription": "At my direction"
+    }
+  },
+  "documentRecipientType": {
+    "Advisor": {
+      "code": "ADVR",
+      "shortDescription": "Advisor",
+      "longDescription": "Advisor"
+    },
+    "Customer": {
+      "code": "CUST",
+      "shortDescription": "Customer",
+      "longDescription": "Customer"
+    },
+    "Receiving Scheme": {
+      "code": "RCVS",
+      "shortDescription": "Receiving Scheme",
+      "longDescription": "Receiving Scheme"
+    }
+  },
+  "drawdownGovernanceTargetType": {
+    "Income": {
+      "code": "DGIN",
+      "shortDescription": "Income",
+      "longDescription": "Income"
+    },
+    "Age": {
+      "code": "DGAG",
+      "shortDescription": "Age",
+      "longDescription": "Age"
+    }
+  },
+  "employmentStatus": {
+    "Carer - one or more children under 16": {
+      "code": "CARU",
+      "shortDescription": "Carer - one or more children under 17",
+      "longDescription": "Carer - one or more children under 18"
+    },
+    "Carer - for persons over 16": {
+      "code": "CARO",
+      "shortDescription": "Carer - for persons over 17",
+      "longDescription": "Carer - for persons over 18"
+    },
+    "Employed": {
+      "code": "EMPL",
+      "shortDescription": "Employed",
+      "longDescription": "Employed"
+    },
+    "Full Time Education": {
+      "code": "EDU",
+      "shortDescription": "Full Time Education",
+      "longDescription": "Full Time Education"
+    },
+    "Child under 16 years": {
+      "code": "CHIL",
+      "shortDescription": "Child under 16 years",
+      "longDescription": "Child under 16 years"
+    },
+    "SelfEmployed": {
+      "code": "SEMP",
+      "shortDescription": "Self-Employed",
+      "longDescription": "Self-Employed"
+    },
+    "Other employment status not listed": {
+      "code": "OTHR",
+      "shortDescription": "Other employment status not listed",
+      "longDescription": "Other employment status not listed"
+    },
+    "Retired": {
+      "code": "RETI",
+      "shortDescription": "Retired",
+      "longDescription": "Retired"
+    },
+    "Unemployed": {
+      "code": "UNEM",
+      "shortDescription": "Unemployed",
+      "longDescription": "Unemployed"
+    }
+  },
+  "employmentType": {
+    "MemberOfOccupationalPensionScheme": {
+      "code": "MOPS",
+      "shortDescription": "Member of Occupational Pension Scheme",
+      "longDescription": "Member of Occupational Pension Scheme"
+    },
+    "Other": {
+      "code": "OTHR",
+      "shortDescription": "Other",
+      "longDescription": "Other"
+    },
+    "SelfEmployed": {
+      "code": "SELF",
+      "shortDescription": "Self Employed",
+      "longDescription": "Self Employed"
+    },
+    "Unemployed": {
+      "code": "UNEP",
+      "shortDescription": "Unemployed",
+      "longDescription": "Unemployed"
+    }
+  },
+  "enquiryResponseStatus": {
+    "Error": {
+      "code": "ERR",
+      "shortDescription": "Error",
+      "longDescription": "Error"
+    },
+    "Success": {
+      "code": "SUCC",
+      "shortDescription": "Success",
+      "longDescription": "Success"
+    },
+    "Warning": {
+      "code": "WARN",
+      "shortDescription": "Warning",
+      "longDescription": "Warning"
+    }
+  },
+  "escalationType": {
+    "CPI": {
+      "code": "CPI",
+      "shortDescription": "Consumer Price Index",
+      "longDescription": "Consumer Price Inde"
+    },
+    "Fixed": {
+      "code": "FIXD",
+      "shortDescription": "Fixed Rate",
+      "longDescription": "Fixed Rate Compound"
+    },
+    "RPI": {
+      "code": "RPI",
+      "shortDescription": "Retail Price Index",
+      "longDescription": "Retail Price Index No Cap"
+    },
+    "Salary": {
+      "code": "SALA",
+      "shortDescription": "Salary",
+      "longDescription": "Salary linked"
+    },
+    "AWE": {
+      "code": "AWE",
+      "shortDescription": "AWE",
+      "longDescription": "Average weekly earnings"
+    },
+    "Level": {
+      "code": "LEVE",
+      "shortDescription": "Level",
+      "longDescription": "Level - No Escalation"
+    },
+    "LPI": {
+      "code": "LPIC",
+      "shortDescription": "LPI",
+      "longDescription": "Limited price index"
+    }
+  },
+  "eventType": {
+    "AddressChange": {
+      "code": "",
+      "shortDescription": "AddressChange",
+      "longDescription": ""
+    },
+    "AdviserAddition": {
+      "code": "",
+      "shortDescription": "AdviserAddition",
+      "longDescription": ""
+    },
+    "AdviserCharges Change": {
+      "code": "",
+      "shortDescription": "AdviserCharges Change",
+      "longDescription": ""
+    },
+    "AdviserRemoval": {
+      "code": "",
+      "shortDescription": "AdviserRemoval",
+      "longDescription": ""
+    },
+    "ApplicationSubmitted": {
+      "code": "",
+      "shortDescription": "ApplicationSubmitted",
+      "longDescription": ""
+    },
+    "AuthorisedThirdParty Change": {
+      "code": "",
+      "shortDescription": "AuthorisedThirdParty Change",
+      "longDescription": ""
+    },
+    "BeneficiaryChange": {
+      "code": "",
+      "shortDescription": "BeneficiaryChange",
+      "longDescription": ""
+    },
+    "ChangeofInvestment": {
+      "code": "",
+      "shortDescription": "ChangeofInvestment",
+      "longDescription": ""
+    },
+    "ChangeofProtectionStatus": {
+      "code": "",
+      "shortDescription": "ChangeofProtectionStatus",
+      "longDescription": ""
+    },
+    "ContributionStatusChange": {
+      "code": "",
+      "shortDescription": "ContributionStatusChange",
+      "longDescription": ""
+    },
+    "ContributionValueChange": {
+      "code": "",
+      "shortDescription": "ContributionValueChange",
+      "longDescription": ""
+    },
+    "ContributionsChange": {
+      "code": "",
+      "shortDescription": "ContributionsChange",
+      "longDescription": ""
+    },
+    "DirectDebitChange": {
+      "code": "",
+      "shortDescription": "DirectDebitChange",
+      "longDescription": ""
+    },
+    "EmailAddressChange": {
+      "code": "",
+      "shortDescription": "EmailAddressChange",
+      "longDescription": ""
+    },
+    "EmployerChange": {
+      "code": "",
+      "shortDescription": "EmployerChange",
+      "longDescription": ""
+    },
+    "EmployerDetailsChange": {
+      "code": "",
+      "shortDescription": "EmployerDetailsChange",
+      "longDescription": ""
+    },
+    "FormAlertChange": {
+      "code": "",
+      "shortDescription": "FormAlertChange",
+      "longDescription": ""
+    },
+    "IRSwitchOn": {
+      "code": "",
+      "shortDescription": "IRSwitchOn",
+      "longDescription": ""
+    },
+    "LegalEarmarking": {
+      "code": "",
+      "shortDescription": "LegalEarmarking",
+      "longDescription": ""
+    },
+    "MoveToForeignAddress": {
+      "code": "",
+      "shortDescription": "MoveToForeignAddress",
+      "longDescription": ""
+    },
+    "MPAAStatusChange": {
+      "code": "",
+      "shortDescription": "MPAAStatusChange",
+      "longDescription": ""
+    },
+    "NameChange": {
+      "code": "",
+      "shortDescription": "nameChange",
+      "longDescription": ""
+    },
+    "PensionSharingOrderChange": {
+      "code": "",
+      "shortDescription": "PensionSharingOrderChange",
+      "longDescription": ""
+    },
+    "PersonalDetailsChange": {
+      "code": "",
+      "shortDescription": "PersonalDetailsChange",
+      "longDescription": ""
+    },
+    "PhoneNumberChange": {
+      "code": "",
+      "shortDescription": "PhoneNumberChange",
+      "longDescription": ""
+    },
+    "QuoteCompleted": {
+      "code": "",
+      "shortDescription": "QuoteCompleted",
+      "longDescription": ""
+    },
+    "TaxcodeChange": {
+      "code": "",
+      "shortDescription": "TaxcodeChange",
+      "longDescription": ""
+    },
+    "TransferStatusChange": {
+      "code": "",
+      "shortDescription": "TransferStatusChange",
+      "longDescription": ""
+    },
+    "TransferValueChange": {
+      "code": "",
+      "shortDescription": "TransferValueChange",
+      "longDescription": ""
+    },
+    "Withdrawal": {
+      "code": "",
+      "shortDescription": "Withdrawal",
+      "longDescription": ""
+    }
+  },
+  "flexibleAccessActionType": {
+    "Change": {
+      "code": "FACH",
+      "shortDescription": "Change",
+      "longDescription": "Change"
+    },
+    "Stop": {
+      "code": "FASP",
+      "shortDescription": "Stop",
+      "longDescription": "Stop"
+    },
+    "Start": {
+      "code": "FAST",
+      "shortDescription": "Start",
+      "longDescription": "Start"
+    }
+  },
+  "facilitationType": {
+    "Premium": {
+      "code": "PREM",
+      "shortDescription": "Premium",
+      "longDescription": "Premium"
+    },
+    "Fund": {
+      "code": "FUND",
+      "shortDescription": "Fund",
+      "longDescription": "Fund"
+    }
+  },
+  "flexibleAccessType": {
+    "Capped": {
+      "code": "CAPP",
+      "shortDescription": "Capped",
+      "longDescription": "Capped"
+    },
+    "FullTaxFree": {
+      "code": "FTXF",
+      "shortDescription": "Full Tax Free",
+      "longDescription": "Full Tax Free"
+    },
+    "PartialTaxFree": {
+      "code": "PTXF",
+      "shortDescription": "Partial Tax Free",
+      "longDescription": "Partial Tax Free"
+    },
+    "Dripfeed": {
+      "code": "DRIP",
+      "shortDescription": "Dripfeed",
+      "longDescription": "Dripfeed"
+    },
+    "Dripfeedsimple": {
+      "code": "DFSM",
+      "shortDescription": "Dripfeedsimple",
+      "longDescription": "Dripfeedsimple"
+    },
+    "FlexibleTransferInDrawdown": {
+      "code": "FTID",
+      "shortDescription": "Flexible Transfer In Drawdown",
+      "longDescription": "Flexible Transfer In Drawdown"
+    }
+  },
+  "fundType": {
+    "BenchmarkFund": {
+      "code": "",
+      "shortDescription": "",
+      "longDescription": ""
+    },
+    "ExternalFund": {
+      "code": "",
+      "shortDescription": "",
+      "longDescription": ""
+    },
+    "RLFund": {
+      "code": "",
+      "shortDescription": "",
+      "longDescription": ""
+    }
+  },
+  "incrementType": {
+    "RegularPremium": {
+      "code": "ORD",
+      "shortDescription": "Regular Savings Plan",
+      "longDescription": "Regular Savings Plan"
+    },
+    "SinglePremium": {
+      "code": "SP",
+      "shortDescription": "Lump Sum",
+      "longDescription": "Lump Sum"
+    },
+    "TransferValue": {
+      "code": "TV",
+      "shortDescription": "Transfer In",
+      "longDescription": "Transfer In"
+    },
+    "Contracting Out": {
+      "code": "DSS",
+      "shortDescription": "Contracting Out",
+      "longDescription": "Contracting Out"
+    }
+  },
+  "investmentType": {
+    "Governed Portfolio": {
+      "code": "GOVP",
+      "shortDescription": "Governed Portfolio",
+      "longDescription": "Governed Portfolio"
+    },
+    "GRIP": {
+      "code": "GRIP",
+      "shortDescription": "GRIP",
+      "longDescription": "GRIP"
+    },
+    "Individual Funds": {
+      "code": "IDFD",
+      "shortDescription": "Individual Funds",
+      "longDescription": "Individual Funds"
+    },
+    "Target Lifestyle Strategy": {
+      "code": "TFST",
+      "shortDescription": "Target Lifestyle Strategy",
+      "longDescription": "Target Lifestyle Strategy"
+    },
+    "Flexible Lifestyle Strategy": {
+      "code": "FLST",
+      "shortDescription": "Flexible Lifestyle Strategy",
+      "longDescription": "Flexible Lifestyle Strategy"
+    },
+    "Custom Portfolio": {
+      "code": "CUSP",
+      "shortDescription": "Custom Portfolio",
+      "longDescription": "Custom Portfolio"
+    },
+    "Custom Strategy": {
+      "code": "CUSS",
+      "shortDescription": "Custom Strategy",
+      "longDescription": "Custom Strategy"
+    }
+  },
+  "investorType": {
+    "Individual": {
+      "code": "INDI",
+      "shortDescription": "Individual",
+      "longDescription": "Individual"
+    },
+    "Company": {
+      "code": "CORP",
+      "shortDescription": "Company",
+      "longDescription": "Company"
+    }
+  },
+  "maritalStatusType": {
+    "Civil Partnership": {
+      "code": "CP",
+      "shortDescription": "Civil Partnership",
+      "longDescription": "Civil Partnership"
+    },
+    "Co-habiting": {
+      "code": "CH",
+      "shortDescription": "Co-habiting",
+      "longDescription": "Co-habiting"
+    },
+    "Divorced": {
+      "code": "D",
+      "shortDescription": "Divorced",
+      "longDescription": "Divorced"
+    },
+    "Married": {
+      "code": "M",
+      "shortDescription": "Married",
+      "longDescription": "Married"
+    },
+    "Separated": {
+      "code": "SPRT",
+      "shortDescription": "Separated",
+      "longDescription": "Separated"
+    },
+    "Single": {
+      "code": "S",
+      "shortDescription": "Single",
+      "longDescription": "Single"
+    },
+    "Unknown": {
+      "code": "U",
+      "shortDescription": "Unknown",
+      "longDescription": "Unknown"
+    },
+    "Widowed": {
+      "code": "W",
+      "shortDescription": "Widowed",
+      "longDescription": "Widowed"
+    }
+  },
+  "origoProcessType": {
+    "Both": {
+      "code": "BOTH",
+      "shortDescription": "Both",
+      "longDescription": "Both"
+    },
+    "TransferIn": {
+      "code": "TRIN",
+      "shortDescription": "Transfer In",
+      "longDescription": "Transfer In"
+    },
+    "TransferOut": {
+      "code": "TROT",
+      "shortDescription": "Transfer Out",
+      "longDescription": "Transfer Out"
+    }
+  },
+  "payerType": {
+    "Individual": {
+      "code": "INDI",
+      "shortDescription": "Individual",
+      "longDescription": "Individual"
+    },
+    "Employer": {
+      "code": "CORP",
+      "shortDescription": "Employer",
+      "longDescription": "Employer"
+    },
+    "Third Party": {
+      "code": "TDPT",
+      "shortDescription": "Third Party",
+      "longDescription": "Third Party"
+    }
+  },
+  "paymentFrequencyType": {
+    "Annually": {
+      "code": "Y",
+      "shortDescription": "Annually",
+      "longDescription": ""
+    },
+    "Half Yearly": {
+      "code": "H",
+      "shortDescription": "Half Yearly",
+      "longDescription": ""
+    },
+    "Monthly": {
+      "code": "M",
+      "shortDescription": "Monthly",
+      "longDescription": ""
+    },
+    "Quarterly": {
+      "code": "Q",
+      "shortDescription": "Quarterly",
+      "longDescription": ""
+    }
+  },
+  "paymentMethod": {
+    "BACS": {
+      "code": "BACS",
+      "shortDescription": "BACS",
+      "longDescription": "BACS"
+    },
+    "Cheque": {
+      "code": "CHQ",
+      "shortDescription": "Cheque",
+      "longDescription": "Cheque"
+    },
+    "Direct Debit": {
+      "code": "DD",
+      "shortDescription": "Direct Debit",
+      "longDescription": "Direct Debit"
+    },
+    "Electronic Transfer": {
+      "code": "ELCT",
+      "shortDescription": "Electronic Transfer",
+      "longDescription": "Electronic Transfer"
+    }
+  },
+  "paymentModeType": {
+    "BACS": {
+      "code": "BACS",
+      "shortDescription": "BACS",
+      "longDescription": "BACS"
+    },
+    "Cheque": {
+      "code": "CHQ",
+      "shortDescription": "Cheque",
+      "longDescription": "Cheque"
+    },
+    "Direct Debit": {
+      "code": "DD",
+      "shortDescription": "Direct Debit",
+      "longDescription": "Direct Debit"
+    },
+    "Electronic Transfer": {
+      "code": "ELCT",
+      "shortDescription": "Electronic Transfer",
+      "longDescription": "Electronic Transfer"
+    }
+  },
+  "pensionAccountTypes": {
+    "Accumulation": {
+      "code": "ACCU",
+      "shortDescription": "Accumulation",
+      "longDescription": "Accumulation"
+    },
+    "Decumulation from internal accumulation": {
+      "code": "PENI",
+      "shortDescription": "Decumulation from internal accumulation",
+      "longDescription": "Decumulation from internal accumulation"
+    },
+    "Decumulation from transfer": {
+      "code": "PENT",
+      "shortDescription": "Decumulation from transfer",
+      "longDescription": "Decumulation from transfer"
+    }
+  },
+  "pensionTypes": {
+    "Pension Portfolio": {
+      "code": "RS-PP",
+      "shortDescription": "Pension Portfolio",
+      "longDescription": "Pension Portfolio"
+    },
+    "Individual Stakeholder Pension Plan": {
+      "code": "RS-STK",
+      "shortDescription": "Individual Stakeholder Pension Plan",
+      "longDescription": "Individual Stakeholder Pension Plan"
+    }
+  },
+  "productType": {
+    "ISA": {
+      "code": "ISA",
+      "shortDescription": "Individual Savings Account",
+      "longDescription": "Individual Savings Account"
+    },
+    "Pension": {
+      "code": "PP",
+      "shortDescription": "Personal Pension",
+      "longDescription": "Personal Pension"
+    },
+    "IPA": {
+      "code": "IPA",
+      "shortDescription": "Individual Pension Arrangement",
+      "longDescription": "Executive Pension Plan"
+    },
+    "Group": {
+      "code": "GRP",
+      "shortDescription": "Group",
+      "longDescription": "Group"
+    }
+  },
+  "proposalStatusType": {
+    "Complete": {
+      "code": "COMP",
+      "shortDescription": "Complete",
+      "longDescription": "Complete"
+    },
+    "Incomplete": {
+      "code": "INCM",
+      "shortDescription": "Incomplete",
+      "longDescription": "Incomplete"
+    },
+    "InProgress": {
+      "code": "INPR",
+      "shortDescription": "InProgress",
+      "longDescription": "InProgress"
+    },
+    "readyToSubmit": {
+      "code": "REDY",
+      "shortDescription": "Ready to Submit",
+      "longDescription": "Ready to Submit"
+    }
+  },
+  "protectionType": {
+    "FP16": {
+        "code": "FP16",
+        "shortDescription": "Fixed Protection 2016",
+        "longDescription": "Fixed Protection 2016"
+      },
+      "FP14":  {
+        "code": "FP14",
+        "shortDescription": "Fixed Protection 2014",
+        "longDescription": "Fixed Protection 2014"
+      },
+      "FP12":  {
+        "code": "FP12",
+        "shortDescription": "Fixed Protection 2012",
+        "longDescription": "Fixed Protection 2012"
+      },
+      "IP16":  {
+        "code": "IP16",
+        "shortDescription": "Individual Protection 2016",
+        "longDescription": "Individual Protection 2016"
+      },
+      "IP14":  {
+        "code": "IP14",
+        "shortDescription": "Individual Protection 2014",
+        "longDescription": "Individual Protection 2014"
+      },
+      "PRIM": {
+        "code": "PRIM",
+        "shortDescription": "Primary Protection",
+        "longDescription": "Primary Protection"
+      },
+      "ENHA":  {
+        "code": "ENHA",
+        "shortDescription": "Enhanced Protection",
+        "longDescription": "Enhanced Protection"
+      }
+  },
+  "providerTrustLevelType" : {
+    "Trusted": {
+        "code": "TRUS",
+        "shortDescription": "Trusted",
+        "longDescription": "Trusted"
+      },
+      "NotTrusted": {
+        "code": "NTRS",
+        "shortDescription": "Not Trusted",
+        "longDescription": "Not Trusted"
+      },
+      "QROPS": {
+        "code": "QROP",
+        "shortDescription": "QROPS",
+        "longDescription": "QROPS"
+      } 
+  },
+  "quoteStatusType": {
+    "Complete": {
+        "code": "COMP",
+        "shortDescription": "Complete",
+        "longDescription": "Complete"
+      },
+      "Incomplete":  {
+        "code": "INCO",
+        "shortDescription": "Incomplete",
+        "longDescription": "Incomplete"
+      }  
+  },
+  "quoteType": {
+    "Exit Stage 1": {
+        "code": "ESG1",
+        "shortDescription": "Exit Stage 1",
+        "longDescription": "Exit Stage 1"
+      },
+      "Exit Stage 2": {
+        "code": "ESG2",
+        "shortDescription": "Exit Stage 2",
+        "longDescription": "Exit Stage 2"
+      },
+      "Key Feature Illustration":  {
+        "code": "KFIL",
+        "shortDescription": "Key Feature Illustration",
+        "longDescription": "Key Feature Illustration"
+      }
+  },
+  "rebalanceFrequencyType" : {
+    "Half Yearly": {
+        "code": "HYFR",
+        "shortDescription": "Half Yearly",
+        "longDescription": "Half Yearly"
+      },
+      "Monthly":   {
+        "code": "MNFR",
+        "shortDescription": "Monthly",
+        "longDescription": "Monthly"
+      },
+      "Quarterly": {
+        "code": "QTFR",
+        "shortDescription": "Quarterly",
+        "longDescription": "Quarterly"
+      },
+      "Yearly":  {
+        "code": "YRFR",
+        "shortDescription": "Yearly",
+        "longDescription": "Yearly"
+      },
+      "Not Rebalanced": {
+        "code": "NTRB",
+        "shortDescription": "Not Rebalanced",
+        "longDescription": "Not Rebalanced"
+      }
+  },
+  "referenceType" : {
+    "Not Set": {
+        "code": "NOTS",
+        "shortDescription": "Not Set",
+        "longDescription": "Not Set"
+      },
+      "Policy":  {
+        "code": "POLI",
+        "shortDescription": "Policy",
+        "longDescription": "Policy"
+      },
+      "Proposal":  {
+        "code": "PROP",
+        "shortDescription": "Proposal",
+        "longDescription": "Proposal"
+      },
+      "Quote": {
+        "code": "QUOT",
+        "shortDescription": "Quote",
+        "longDescription": "Quote"
+      }
+  },
+  "regularPremiumStatus" : {
+    "Direct Debit Cancelled": {
+        "code": "DDCC",
+        "shortDescription": "Direct Debit Cancelled",
+        "longDescription": "Direct Debit Cancelled"
+      },
+      "Direct Debit Failed":  {
+        "code": "DDFF",
+        "shortDescription": "Direct Debit Failed",
+        "longDescription": "Direct Debit Failed"
+      },
+      "Direct Debit Set Up Complete":  {
+        "code": "DDCO",
+        "shortDescription": "Direct Debit Set Up Complete",
+        "longDescription": "Direct Debit Set Up Complete"
+      },
+      "Direct Debit Set Up Failed":  {
+        "code": "DDFA",
+        "shortDescription": "Direct Debit Set Up Failed",
+        "longDescription": "Direct Debit Set Up Failed"
+      },
+      "First Contribution Paid":  {
+        "code": "DDPA",
+        "shortDescription": "First Contribution Paid",
+        "longDescription": "First Contribution Paid"
+      },
+      "Requesting First Contribution":  {
+        "code": "DDRQ",
+        "shortDescription": "Requesting First Contribution",
+        "longDescription": "Requesting First Contribution"
+      },
+      "Setting up Direct Debit":  {
+        "code": "SUDD",
+        "shortDescription": "Setting up Direct Debit",
+        "longDescription": "Setting up Direct Debit"
+      }
+  },
+  "relatedIDType": {
+    "CRM Case ID": {
+        "code": "CRMC",
+        "shortDescription": "CRM Case ID",
+        "longDescription": "CRM Case ID"
+      },
+      "New Decumulation Account ID": {
+        "code": "NDCA",
+        "shortDescription": "New Decumulation Account ID",
+        "longDescription": "New Decumulation Account ID"
+      },
+      "Origo":  {
+        "code": "ORIG",
+        "shortDescription": "Origo",
+        "longDescription": "Origo"
+      },
+      "Receiving Scheme Provider": {
+        "code": "RSPR",
+        "shortDescription": "Receiving Scheme Provider",
+        "longDescription": "Receiving Scheme Provider"
+      },
+      "Sonata Bank ID":  {
+        "code": "SNTB",
+        "shortDescription": "Sonata Bank ID",
+        "longDescription": "Sonata Bank ID"
+      },
+      "Sonata Transaction": {
+        "code": "SNTN",
+        "shortDescription": "Sonata Transaction",
+        "longDescription": "Sonata Transaction"
+      }
+  },
+  "riskProfileType" : {
+    "Adventurous": {
+        "code": "ADV",
+        "shortDescription": "Adventurous",
+        "longDescription": "Adventurous"
+      },
+      "Balanced": {
+        "code": "BALA",
+        "shortDescription": "Balanced",
+        "longDescription": "Balanced"
+      },
+      "Cautious": {
+        "code": "CAUT",
+        "shortDescription": "Cautious",
+        "longDescription": "Cautious"
+      },
+      "Moderately Adventurous":  {
+        "code": "MODA",
+        "shortDescription": "Moderately Adventurous",
+        "longDescription": "Moderately Adventurous"
+      },
+      "Moderately Cautious":  {
+        "code": "MODC",
+        "shortDescription": "Moderately Cautious",
+        "longDescription": "Moderately Cautious"
+      }
+  },
+  "royalLondonContactInformation" : {
+    "New Business - Quote":{
+        "Id": 1,
+        "ContactReference": "New Business - Quote",
+        "ContactTeamname": "Case Manager specific",
+        "ContactTeamArea": "New Business - Quote",
+        "TeamPhone": "",
+        "TeamPhoneIVROptions": "n/a",
+        "TeamEmail": "",
+        "DeptPhone": "0345 60 50 050"
+      },
+      "New Business - Application form": {
+        "Id": 2,
+        "ContactReference": "New Business - Application form",
+        "ContactTeamname": "Case Manager specific",
+        "ContactTeamArea": "New Business - Application form",
+        "TeamPhone": "",
+        "TeamPhoneIVROptions": "n/a",
+        "TeamEmail": "",
+        "DeptPhone": "0345 60 50 050"
+      },
+      "Change of Investment": {
+        "Id": 3,
+        "ContactReference": "Change of Investment",
+        "ContactTeamname": "Premiums & Alterations RLI",
+        "ContactTeamArea": "Change of Investment",
+        "TeamPhone": "0345 602 1868",
+        "TeamPhoneIVROptions": "n/a",
+        "TeamEmail": "pp.premiums@royallondon.com",
+        "DeptPhone": "0345 60 50 050"
+      },
+      "Single Premium": {
+        "Id": 4,
+        "ContactReference": "Single Premium",
+        "ContactTeamname": "Premiums & Alterations RLI",
+        "ContactTeamArea": "Submit a Single Premium",
+        "TeamPhone": "0345 602 1868",
+        "TeamPhoneIVROptions": "n/a",
+        "TeamEmail": "pp.premiums@royallondon.com",
+        "DeptPhone": "0345 60 50 050"
+      },
+      "Change DD Details": {
+        "Id": 5,
+        "ContactReference": "Change DD Details",
+        "ContactTeamname": "Premiums & Alterations RLI",
+        "ContactTeamArea": "Change DD Details",
+        "TeamPhone": "0345 602 1868",
+        "TeamPhoneIVROptions": "n/a",
+        "TeamEmail": "pp.premiums@royallondon.com",
+        "DeptPhone": "0345 60 50 050"
+      },
+      "Cancel policy":  {
+        "Id": 6,
+        "ContactReference": "Cancel policy",
+        "ContactTeamname": "Policy Information",
+        "ContactTeamArea": "Cancel policy",
+        "TeamPhone": "0345 850 0535",
+        "TeamPhoneIVROptions": "n/a",
+        "TeamEmail": "pp.policyinfo@royallondon.com",
+        "DeptPhone": "0345 60 50 050"
+      },
+      "TV Claim":  {
+        "Id": 7,
+        "ContactReference": "TV Claim",
+        "ContactTeamname": "Transfers",
+        "ContactTeamArea": "TV Claim",
+        "TeamPhone": "0345 602 1865",
+        "TeamPhoneIVROptions": "n/a",
+        "TeamEmail": "pp.transfers@royallondon.com",
+        "DeptPhone": "0345 60 50 050"
+      },
+      "Retirement Claims - PP": {
+        "Id": 8,
+        "ContactReference": "Retirement Claims - PP",
+        "ContactTeamname": "Retirements",
+        "ContactTeamArea": "Retirement Claims",
+        "TeamPhone": "0345 850 8948",
+        "TeamPhoneIVROptions": "n/a",
+        "TeamEmail": "ppclaims@royallondon.com",
+        "DeptPhone": "0345 60 50 050"
+      },
+      "Retirement Claims - IR Switch": {
+        "Id": 9,
+        "ContactReference": "Retirement Claims - IR Switch",
+        "ContactTeamname": "Retirements",
+        "ContactTeamArea": "Retirement Claims",
+        "TeamPhone": "0345 850 8948",
+        "TeamPhoneIVROptions": "n/a",
+        "TeamEmail": "irswitchonquote@royallondon.com",
+        "DeptPhone": "0345 60 50 050"
+      },
+      "Income Release - IR Servicing":  {
+        "Id": 10,
+        "ContactReference": "Income Release - IR Servicing",
+        "ContactTeamname": "Income Release",
+        "ContactTeamArea": "Income Release",
+        "TeamPhone": "0345 850 8953",
+        "TeamPhoneIVROptions": "n/a",
+        "TeamEmail": "irservicing@royallondon.com",
+        "DeptPhone": "0345 60 50 050"
+      },
+      "Income Release - IDD": {
+        "Id": 11,
+        "ContactReference": "Income Release - IDD",
+        "ContactTeamname": "Income Release",
+        "ContactTeamArea": "Income Release",
+        "TeamPhone": "0345 850 8954",
+        "TeamPhoneIVROptions": "n/a",
+        "TeamEmail": "idd@royallondon.com",
+        "DeptPhone": "0345 60 50 050"
+      },
+      "Income Release - SIPP":  {
+        "Id": 12,
+        "ContactReference": "Income Release - SIPP",
+        "ContactTeamname": "Income Release",
+        "ContactTeamArea": "Income Release",
+        "TeamPhone": "0345 6007477",
+        "TeamPhoneIVROptions": "n/a",
+        "TeamEmail": "sipp@royallondon.com",
+        "DeptPhone": "0345 60 50 050"
+      },
+      "Compliant":  {
+        "Id": 13,
+        "ContactReference": "Compliant",
+        "ContactTeamname": "Customer Relations",
+        "ContactTeamArea": "Complaint",
+        "TeamPhone": 0,
+        "TeamPhoneIVROptions": "n/a",
+        "TeamEmail": "customerrelations@royallondon.com",
+        "DeptPhone": "0345 60 50 050"
+      },
+      "Change of address":  {
+        "Id": 14,
+        "ContactReference": "Change of address",
+        "ContactTeamname": "Policy Information",
+        "ContactTeamArea": "Servicing - Change of Address",
+        "TeamPhone": "0345 850 0535",
+        "TeamPhoneIVROptions": "n/a",
+        "TeamEmail": "pp.policyinfo@royallondon.com",
+        "DeptPhone": "0345 60 50 050"
+      },
+      "Change of name": {
+        "Id": 15,
+        "ContactReference": "Change of name",
+        "ContactTeamname": "Policy Information",
+        "ContactTeamArea": "Servicing - Change of name",
+        "TeamPhone": "0345 850 0535",
+        "TeamPhoneIVROptions": "n/a",
+        "TeamEmail": "pp.policyinfo@royallondon.com",
+        "DeptPhone": "0345 60 50 050"
+      },
+      "Other changes":  {
+        "Id": 16,
+        "ContactReference": "Other changes",
+        "ContactTeamname": "Policy Information",
+        "ContactTeamArea": "Servicing - Change",
+        "TeamPhone": "0345 850 0535",
+        "TeamPhoneIVROptions": "n/a",
+        "TeamEmail": "pp.policyinfo@royallondon.com",
+        "DeptPhone": "0345 60 50 050"
+      },
+      "Bereavement":  {
+        "Id": 17,
+        "ContactReference": "Bereavement",
+        "ContactTeamname": "Bereavements",
+        "ContactTeamArea": "Bereavement",
+        "TeamPhone": "0345 604 5155",
+        "TeamPhoneIVROptions": "n/a",
+        "TeamEmail": "RLIbereavements@royallondon.com",
+        "DeptPhone": "0345 60 50 050"
+      },
+      "Policy Info":  {
+        "Id": 18,
+        "ContactReference": "Policy Info",
+        "ContactTeamname": "Policy Information",
+        "ContactTeamArea": "Policy Info - Fund Value etc",
+        "TeamPhone": "0345 850 0535",
+        "TeamPhoneIVROptions": "n/a",
+        "TeamEmail": "pp.policyinfo@royallondon.com",
+        "DeptPhone": "0345 60 50 050"
+      },
+      "NSU":  {
+        "Id": 19,
+        "ContactReference": "NSU",
+        "ContactTeamname": "NSU",
+        "ContactTeamArea": "NSU",
+        "TeamPhone": "0345 604 0800",
+        "TeamPhoneIVROptions": "n/a",
+        "TeamEmail": "nsu@rlisales.com",
+        "DeptPhone": "0345 604 0800"
+      },
+      "Claims and Deaths": {
+        "Id": 20,
+        "ContactReference": "Claims and Deaths",
+        "ContactTeamname": "Bereavements",
+        "ContactTeamArea": "Claims and Deaths",
+        "TeamPhone": "0345 604 5155",
+        "TeamPhoneIVROptions": "n/a",
+        "TeamEmail": "RLIbereavements@royallondon.com",
+        "DeptPhone": "0345 60 50 050"
+      },
+      "Missed, changed or bank info":  {
+        "Id": 21,
+        "ContactReference": "Missed, changed or bank info",
+        "ContactTeamname": "Premiums & Alterations RLI",
+        "ContactTeamArea": "Premiums - Missed, changed or bank info",
+        "TeamPhone": "0345 602 1868",
+        "TeamPhoneIVROptions": "n/a",
+        "TeamEmail": "pp.premiums@royallondon.com",
+        "DeptPhone": "0345 60 50 050"
+      },
+      "Policy Values": {
+        "Id": 22,
+        "ContactReference": "Policy Values",
+        "ContactTeamname": "Policy Information",
+        "ContactTeamArea": "Values",
+        "TeamPhone": "0345 850 0535",
+        "TeamPhoneIVROptions": "n/a",
+        "TeamEmail": "pp.policyinfo@royallondon.com",
+        "DeptPhone": "0345 60 50 050"
+      },
+      "Policy Info General":  {
+        "Id": 23,
+        "ContactReference": "Policy Info General",
+        "ContactTeamname": "Policy Information",
+        "ContactTeamArea": "Policy Info General",
+        "TeamPhone": "0345 850 0535",
+        "TeamPhoneIVROptions": "n/a",
+        "TeamEmail": "pp.policyinfo@royallondon.com",
+        "DeptPhone": "0345 60 50 050"
+      },
+      "Adviser Charging":   {
+        "Id": 24,
+        "ContactReference": "Adviser Charging",
+        "ContactTeamname": "Policy Information",
+        "ContactTeamArea": "Adviser Charging",
+        "TeamPhone": "0345 850 0535",
+        "TeamPhoneIVROptions": "n/a",
+        "TeamEmail": "pp.policyinfo@royallondon.com",
+        "DeptPhone": "0345 60 50 050"
+      },
+      "Authority requests":  {
+        "Id": 25,
+        "ContactReference": "Authority requests",
+        "ContactTeamname": "Policy Information",
+        "ContactTeamArea": "Authority requests",
+        "TeamPhone": "0345 850 0535",
+        "TeamPhoneIVROptions": "n/a",
+        "TeamEmail": "pp.policyinfo@royallondon.com",
+        "DeptPhone": "0345 60 50 050"
+      },
+      "Bid and Fund Prices":  {
+        "Id": 26,
+        "ContactReference": "Bid and Fund Prices",
+        "ContactTeamname": "Policy Information",
+        "ContactTeamArea": "Bid and Fund Prices",
+        "TeamPhone": "0345 850 0535",
+        "TeamPhoneIVROptions": "n/a",
+        "TeamEmail": "pp.policyinfo@royallondon.com",
+        "DeptPhone": "0345 60 50 050"
+      }
+  },
+  "genderType" : {
+    "Female": {
+        "code": "FEM",
+        "shortDescription": "Female",
+        "longDescription": "Female"
+      },
+      "Male": {
+        "code": "MALE",
+        "shortDescription": "Male",
+        "longDescription": "Male"
+      }
+  },
+  "singlePremiumStatus" : {
+    "Awaiting single contribution": {
+        "code": "SCAW",
+        "shortDescription": "Awaiting single contribution",
+        "longDescription": "Awaiting single contribution"
+      },
+      "Single contribution complete":  {
+        "code": "SCCO",
+        "shortDescription": "Single contribution complete",
+        "longDescription": "Single contribution complete"
+      },
+      "Single contribution received":  {
+        "code": "ACRE",
+        "shortDescription": "Single contribution received",
+        "longDescription": "Single contribution received"
+      }
+  },
+  "targetStrategyType": {
+    "Annuity": {
+        "code": "ANUY",
+        "shortDescription": "Annuity",
+        "longDescription": "Annuity"
+      },
+      "Cash": {
+        "code": "CASH",
+        "shortDescription": "Cash",
+        "longDescription": "Cash"
+      },
+      "Drawdown":  {
+        "code": "DDWN",
+        "shortDescription": "Drawdown",
+        "longDescription": "Drawdown"
+      }
+  },
+  "thirdPartyType" :{
+    "Power of Attorney": {
+        "code": "POA",
+        "shortDescription": "Power of Attorney",
+        "longDescription": "Power of Attorney"
+      },
+      "Legal Guardian":  {
+        "code": "LGDN",
+        "shortDescription": "Legal Guardian",
+        "longDescription": "Legal Guardian"
+      }
+  },
+  "titleType": {
+    "Admiral": {
+        "code": "ADML",
+        "shortDescription": "Admiral",
+        "longDescription": "Admiral"
+      },
+      "Baron":  {
+        "code": "BARN",
+        "shortDescription": "Baron",
+        "longDescription": "Baron"
+      },
+      "Brigadier":  {
+        "code": "BRIG",
+        "shortDescription": "Brigadier",
+        "longDescription": "Brigadier"
+      },
+      "Captain": {
+        "code": "CAPT",
+        "shortDescription": "Captain",
+        "longDescription": "Captain"
+      },
+      "Colonel":  {
+        "code": "COLN",
+        "shortDescription": "Colonel",
+        "longDescription": "Colonel"
+      },
+      "Commander":  {
+        "code": "COMM",
+        "shortDescription": "Commander",
+        "longDescription": "Commander"
+      },
+      "Count": {
+        "code": "CONT",
+        "shortDescription": "Count",
+        "longDescription": "Count"
+      },
+      "Dame":  {
+        "code": "DAME",
+        "shortDescription": "Dame",
+        "longDescription": "Dame"
+      },
+      "Doctor":  {
+        "code": "DR",
+        "shortDescription": "Doctor",
+        "longDescription": "Doctor"
+      },
+      "Duchess": {
+        "code": "DUCH",
+        "shortDescription": "Duchess",
+        "longDescription": "Duchess"
+      },
+      "Duke":  {
+        "code": "DUKE",
+        "shortDescription": "Duke",
+        "longDescription": "Duke"
+      },
+      "Earl": {
+        "code": "EARL",
+        "shortDescription": "Earl",
+        "longDescription": "Earl"
+      },
+      "Father":  {
+        "code": "FATH",
+        "shortDescription": "Father",
+        "longDescription": "Father"
+      },
+      "Gender Neutral": {
+        "code": "NEUT",
+        "shortDescription": "Gender Neutral",
+        "longDescription": "Gender Neutral"
+      },
+      "Group Captain":  {
+        "code": "GCPT",
+        "shortDescription": "Group Captain",
+        "longDescription": "Group Captain"
+      },
+      "Honourable":  {
+        "code": "HON",
+        "shortDescription": "Honourable",
+        "longDescription": "Honourable"
+      },
+      "Honourable Doctor": {
+        "code": "HOND",
+        "shortDescription": "Honourable Doctor",
+        "longDescription": "Honourable Doctor"
+      },
+      "Inspector": {
+        "code": "INSP",
+        "shortDescription": "Inspector",
+        "longDescription": "Inspector"
+      },
+      "Judge": {
+        "code": "JUDG",
+        "shortDescription": "Judge",
+        "longDescription": "Judge"
+      },
+      "Lady":  {
+        "code": "LADY",
+        "shortDescription": "Lady",
+        "longDescription": "Lady"
+      },
+      "Lieutenant Colonel": {
+        "code": "LTCL",
+        "shortDescription": "Lieutenant Colonel",
+        "longDescription": "Lieutenant Colonel"
+      },
+      "Lieutenant Commander":  {
+        "code": "LTCD",
+        "shortDescription": "Lieutenant Commander",
+        "longDescription": "Lieutenant Commander"
+      },
+      "Lord": {
+        "code": "LORD",
+        "shortDescription": "Lord",
+        "longDescription": "Lord"
+      },
+      "Major":  {
+        "code": "MAJR",
+        "shortDescription": "Major",
+        "longDescription": "Major"
+      },
+      "Marchioness":  {
+        "code": "MARC",
+        "shortDescription": "Marchioness",
+        "longDescription": "Marchioness"
+      },
+      "Marquess": {
+        "code": "MARQ",
+        "shortDescription": "Marquess",
+        "longDescription": "Marquess"
+      },
+      "Master": {
+        "code": "MAST",
+        "shortDescription": "Master",
+        "longDescription": "Master"
+      },
+      "Miss": {
+        "code": "MISS",
+        "shortDescription": "Miss",
+        "longDescription": "Miss"
+      },
+      "Mr": {
+        "code": "MR",
+        "shortDescription": "Mr",
+        "longDescription": "Mr"
+      },
+      "Mrs": {
+        "code": "MRS",
+        "shortDescription": "Mrs",
+        "longDescription": "Mrs"
+      },
+      "Ms":  {
+        "code": "MS",
+        "shortDescription": "Ms",
+        "longDescription": "Ms"
+      },
+      "Professor":  {
+        "code": "PROF",
+        "shortDescription": "Professor",
+        "longDescription": "Professor"
+      },
+      "Rabbi":  {
+        "code": "RABI",
+        "shortDescription": "Rabbi",
+        "longDescription": "Rabbi"
+      },
+      "Reverend": {
+        "code": "REV",
+        "shortDescription": "Reverend",
+        "longDescription": "Reverend"
+      },
+      "Reverend Father":  {
+        "code": "REVF",
+        "shortDescription": "Reverend Father",
+        "longDescription": "Reverend Father"
+      },
+      "Reverend Mother":  {
+        "code": "REVM",
+        "shortDescription": "Reverend Mother",
+        "longDescription": "Reverend Mother"
+      },
+      "Right Honourable":   {
+        "code": "RHON",
+        "shortDescription": "Right Honourable",
+        "longDescription": "Right Honourable"
+      },
+      "Right Honourable Lady": {
+        "code": "RHLA",
+        "shortDescription": "Right Honourable Lady",
+        "longDescription": "Right Honourable Lady"
+      },
+      "Right Honourable Lord":  {
+        "code": "RTHL",
+        "shortDescription": "Right Honourable Lord",
+        "longDescription": "Right Honourable Lord"
+      },
+      "Right Reverend":  {
+        "code": "RTRE",
+        "shortDescription": "Right Reverend",
+        "longDescription": "Right Reverend"
+      },
+      "Royal Highness": {
+        "code": "HRH",
+        "shortDescription": "Royal Highness",
+        "longDescription": "Royal Highness"
+      },
+      "Sergeant":  {
+        "code": "SGT",
+        "shortDescription": "Sergeant",
+        "longDescription": "Sergeant"
+      },
+      "Sir": {
+        "code": "SIR",
+        "shortDescription": "Sir",
+        "longDescription": "Sir"
+      },
+      "Sister": {
+        "code": "SIST",
+        "shortDescription": "Sister",
+        "longDescription": "Sister"
+      },
+      "The Very Reverend": {
+        "code": "TVR",
+        "shortDescription": "The Very Reverend",
+        "longDescription": "The Very Reverend"
+      },
+      "Viscount":  {
+        "code": "VISC",
+        "shortDescription": "Viscount",
+        "longDescription": "Viscount"
+      },
+      "Viscountess": {
+        "code": "VISS",
+        "shortDescription": "Viscountess",
+        "longDescription": "Viscountess"
+      },
+      "Wing Commander": {
+        "code": "WGCM",
+        "shortDescription": "Wing Commander",
+        "longDescription": "Wing Commander"
+      }
+  },
+  "transactionEventStatuses": {
+    "Cancelled": {
+        "code": "CANC",
+        "shortDescription": "Cancelled",
+        "longDescription": "Cancelled"
+      },
+      "Dishonoured": {
+        "code": "DISH",
+        "shortDescription": "Dishonoured",
+        "longDescription": "Dishonoured"
+      },
+      "Normal":  {
+        "code": "NORM",
+        "shortDescription": "Normal",
+        "longDescription": "Normal"
+      },
+      "Pending": {
+        "code": "PEND",
+        "shortDescription": "Pending",
+        "longDescription": "Pending"
+      },
+      "Quote": {
+        "code": "QUOT",
+        "shortDescription": "Quote",
+        "longDescription": "Quote"
+      },
+      "Refund": {
+        "code": "REFD",
+        "shortDescription": "Refund",
+        "longDescription": "Refund"
+      },
+      "Reversed":  {
+        "code": "REVS",
+        "shortDescription": "Reversed",
+        "longDescription": "Reversed"
+      },
+      "Unverified":  {
+        "code": "UNCF",
+        "shortDescription": "Unverified",
+        "longDescription": "Unverified"
+      },
+      "Unconfirmed":  {
+        "code": "UNCO",
+        "shortDescription": "Unconfirmed",
+        "longDescription": "Unconfirmed"
+      },
+      "Unconf Price":  {
+        "code": "UNCP",
+        "shortDescription": "Unconf Price",
+        "longDescription": "Unconf Price"
+      }
+  },
+  "TSTP" : {
+    "External":{
+        "code": "EXTN",
+        "shortDescription": "External",
+        "longDescription": "External"
+      },
+      "Internal": {
+        "code": "INTN",
+        "shortDescription": "Internal",
+        "longDescription": "Internal"
+      },
+      "Origo":  {
+        "code": "ORIG",
+        "shortDescription": "Origo",
+        "longDescription": "Origo"
+      }
+  },
+  "transactionType" : {
+    "Annual Management Charge Adjustment":  {
+        "code": "AMCA",
+        "shortDescription": "Annual Management Charge Adjustment",
+        "longDescription": ""
+      },
+      "Full Open Market Option": {
+        "code": "ANFT",
+        "shortDescription": "Full Open Market Option",
+        "longDescription": ""
+      },
+      "Partial Open Market Option": {
+        "code": "ANUA",
+        "shortDescription": "Partial Open Market Option",
+        "longDescription": ""
+      },
+      "Web Application": {
+        "code": "APPL",
+        "shortDescription": "Web Application",
+        "longDescription": ""
+      },
+      "Lump Sum Application for Additional Permitted Subscription inherited upon death of the spouse":  {
+        "code": "APSL",
+        "shortDescription": "Lump Sum Application for Additional Permitted Subscription inherited upon death of the spouse",
+        "longDescription": ""
+      },
+      "Transfer units from deceased client's account to living spouse's account":  {
+        "code": "APST",
+        "shortDescription": "Transfer units from deceased client's account to living spouse's account",
+        "longDescription": ""
+      },
+      "Auto Rebalance":  {
+        "code": "ARBL",
+        "shortDescription": "Auto Rebalance",
+        "longDescription": ""
+      },
+      "Authorised Payment":  {
+        "code": "AUTP",
+        "shortDescription": "Authorised Payment",
+        "longDescription": ""
+      },
+      "Beneficiary DD designation - LTA Test":  {
+        "code": "BDDD",
+        "shortDescription": "Beneficiary DD designation - LTA Test",
+        "longDescription": ""
+      },
+      "Beneficiary DD designation - LTA Test - Internal Transfer to beneficiary Decumulation Account (deceased client under 75)": {
+        "code": "BDDT",
+        "shortDescription": "Beneficiary DD designation - LTA Test - Internal Transfer to beneficiary Decumulation Account (deceased client under 75)",
+        "longDescription": ""
+      },
+      "Beneficiary INTERNAL Transfer":  {
+        "code": "BINT",
+        "shortDescription": "Beneficiary INTERNAL Transfer",
+        "longDescription": ""
+      },
+      "Beneficiary Tax Free Income": {
+        "code": "BTFI",
+        "shortDescription": "Beneficiary Tax Free Income",
+        "longDescription": ""
+      },
+      "Cancellation of Rights":   {
+        "code": "CARI",
+        "shortDescription": "Cancellation of Rights",
+        "longDescription": ""
+      },
+      "CHAPS Fee":  {
+        "code": "CHAP",
+        "shortDescription": "CHAPS Fee",
+        "longDescription": ""
+      },
+      "Charity Lump Sum Death":  {
+        "code": "CHLD",
+        "shortDescription": "Charity Lump Sum Death",
+        "longDescription": ""
+      },
+      "Contribution Refund for SIPP Product": {
+        "code": "CREF",
+        "shortDescription": "Contribution Refund for SIPP Product",
+        "longDescription": ""
+      },
+      "Declared Bonus":  {
+        "code": "DCBN",
+        "shortDescription": "Declared Bonus",
+        "longDescription": ""
+      },
+      "Draw Down Pension Lump Sum Death Benefit - Above LTA Age - UK SIPP": {
+        "code": "DPLB",
+        "shortDescription": "Draw Down Pension Lump Sum Death Benefit - Above LTA Age - UK SIPP",
+        "longDescription": ""
+      },
+      "Lifetime Allowance Charge on Lump Sum Excess":  {
+        "code": "ECLS",
+        "shortDescription": "Lifetime Allowance Charge on Lump Sum Excess",
+        "longDescription": ""
+      },
+      "Lifetime Allowance Charge on Income/Retained Excess":  {
+        "code": "ECRI",
+        "shortDescription": "Lifetime Allowance Charge on Income/Retained Excess",
+        "longDescription": ""
+      },
+      "Transfer Out Full": {
+        "code": "FTRP",
+        "shortDescription": "Transfer Out Full",
+        "longDescription": ""
+      },
+      "Government Bonus":  {
+        "code": "GVBO",
+        "shortDescription": "Government Bonus",
+        "longDescription": ""
+      },
+      "Help to Buy Transfer In":  {
+        "code": "HBTI",
+        "shortDescription": "Help to Buy Transfer In",
+        "longDescription": ""
+      },
+      "HMRC Tax": {
+        "code": "HMRC",
+        "shortDescription": "HMRC Tax",
+        "longDescription": ""
+      },
+      "Income Sweep Credit":   {
+        "code": "INDD",
+        "shortDescription": "Income Sweep Credit",
+        "longDescription": ""
+      },
+      "Income Sweep Debit":  {
+        "code": "INSW",
+        "shortDescription": "Income Sweep Debit",
+        "longDescription": ""
+      },
+      "Lifetime ISA Transfer In":  {
+        "code": "LITI",
+        "shortDescription": "Lifetime ISA Transfer In",
+        "longDescription": ""
+      },
+      "LISA Non-Permitted Reason – Charges Applies": {
+        "code": "LNPR",
+        "shortDescription": "LISA Non-Permitted Reason – Charges Applies",
+        "longDescription": ""
+      },
+      "LISA Permitted Reason – No Charge": {
+        "code": "LPRR",
+        "shortDescription": "LISA Permitted Reason – No Charge",
+        "longDescription": ""
+      },
+      "Lump Sum Death on Crystallised Funds - Below LTA Age - UK SIPP": {
+        "code": "LSCB",
+        "shortDescription": "Lump Sum Death on Crystallised Funds - Below LTA Age - UK SIPP",
+        "longDescription": ""
+      },
+      "Lump Sum Death on Uncrys Funds Above LTA Age - UK SIPP":  {
+        "code": "LSDT",
+        "shortDescription": "Lump Sum Death on Uncrys Funds Above LTA Age - UK SIPP",
+        "longDescription": ""
+      },
+      "Lump Sum Death on Uncrystallised Funds - Below LTA Age - UK SIPP": {
+        "code": "LSUB",
+        "shortDescription": "Lump Sum Death on Uncrystallised Funds - Below LTA Age - UK SIPP",
+        "longDescription": ""
+      },
+      "Single Premium": {
+        "code": "LSUM",
+        "shortDescription": "Single Premium",
+        "longDescription": ""
+      },
+      "Pension Excess Lump Sum Payment": {
+        "code": "PELS",
+        "shortDescription": "Pension Excess Lump Sum Payment",
+        "longDescription": ""
+      },
+      "Phased Income Crystallisation":  {
+        "code": "PIDD",
+        "shortDescription": "Phased Income Crystallisation",
+        "longDescription": ""
+      },
+      "Plan Transfer In": {
+        "code": "PLTF",
+        "shortDescription": "Plan Transfer In",
+        "longDescription": ""
+      },
+      "Transfer of Pension Fund as a result of Pension Sharing Order": {
+        "code": "PNDB",
+        "shortDescription": "Transfer of Pension Fund as a result of Pension Sharing Order",
+        "longDescription": ""
+      },
+      "Pension Fund Drawdown": {
+        "code": "PPDD",
+        "shortDescription": "Pension Fund Drawdown",
+        "longDescription": ""
+      },
+      "Pension Transfer In":  {
+        "code": "PTFI",
+        "shortDescription": "Pension Transfer In",
+        "longDescription": ""
+      },
+      "Transfer Out Partial": {
+        "code": "PTFO",
+        "shortDescription": "Transfer Out Partial",
+        "longDescription": ""
+      },
+      "PTO": {
+        "code": "PTOC",
+        "shortDescription": "PTO",
+        "longDescription": ""
+      },
+      "PTO - No Subs": {
+        "code": "PTON",
+        "shortDescription": "PTO - No Subs",
+        "longDescription": ""
+      },
+      "PTO - With Subs":  {
+        "code": "PTOW",
+        "shortDescription": "PTO - With Subs",
+        "longDescription": ""
+      },
+      "Web Transfer In": {
+        "code": "PTRF",
+        "shortDescription": "Web Transfer In",
+        "longDescription": ""
+      },
+      "DrawDown Transfer Out to a Recognised Pension Scheme  - Full Transfer - Decumulation": {
+        "code": "PTUP",
+        "shortDescription": "DrawDown Transfer Out to a Recognised Pension Scheme  - Full Transfer - Decumulation",
+        "longDescription": ""
+      },
+      "Regular Premium": {
+        "code": "RCON",
+        "shortDescription": "Regular Premium",
+        "longDescription": ""
+      },
+      "Regular income payments, with no fund switch": {
+        "code": "RINCP",
+        "shortDescription": "Regular income payments, with no fund switch",
+        "longDescription": ""
+      },
+      "Regular Pension Payment Transaction":   {
+        "code": "RPPM",
+        "shortDescription": "Regular Pension Payment Transaction",
+        "longDescription": ""
+      },
+      "Regular Pension Commencement Lump Sum":  {
+        "code": "RTFC",
+        "shortDescription": "Regular Pension Commencement Lump Sum",
+        "longDescription": ""
+      },
+      "Serious Ill Health Below LTA Age": {
+        "code": "SEIL",
+        "shortDescription": "Serious Ill Health Below LTA Age",
+        "longDescription": ""
+      },
+      "Serious Ill Health Above LTA Age":  {
+        "code": "SIHB",
+        "shortDescription": "Serious Ill Health Above LTA Age",
+        "longDescription": ""
+      },
+      "Small Lump Sums for Accumulation type accounts":  {
+        "code": "SLSA",
+        "shortDescription": "Small Lump Sums for Accumulation type accounts",
+        "longDescription": ""
+      },
+      "Small Lump sums for Decumulation type accounts":  {
+        "code": "SLSD",
+        "shortDescription": "Small Lump sums for Decumulation type accounts",
+        "longDescription": ""
+      },
+      "Small Pots for Accumulation type accounts": {
+        "code": "SMPT",
+        "shortDescription": "Small Pots for Accumulation type accounts",
+        "longDescription": ""
+      },
+      "Small Pots for Decumulation types accounts":  {
+        "code": "SPDC",
+        "shortDescription": "Small Pots for Decumulation types accounts",
+        "longDescription": ""
+      },
+      "Switch Fee":  {
+        "code": "SWFE",
+        "shortDescription": "Switch Fee",
+        "longDescription": ""
+      },
+      "Regular income payments with a fund switch":  {
+        "code": "SWIRN",
+        "shortDescription": "Regular income payments with a fund switch",
+        "longDescription": ""
+      },
+      "Switch of units between funds": {
+        "code": "SWIT",
+        "shortDescription": "Switch of units between funds",
+        "longDescription": ""
+      },
+      "Trivial Commutation Lump Sum Death":  {
+        "code": "TCLD",
+        "shortDescription": "Trivial Commutation Lump Sum Death",
+        "longDescription": ""
+      },
+      "Pension Commencement Lump Sum":  {
+        "code": "TFCP",
+        "shortDescription": "Pension Commencement Lump Sum",
+        "longDescription": ""
+      },
+      "Web Pension Transfer In":  {
+        "code": "TFIN",
+        "shortDescription": "Web Pension Transfer In",
+        "longDescription": ""
+      },
+      "Tax Relief Payment":  {
+        "code": "TPYT",
+        "shortDescription": "Tax Relief Payment",
+        "longDescription": ""
+      },
+      "Transfer to QROP":  {
+        "code": "TQRP",
+        "shortDescription": "Transfer to QROP",
+        "longDescription": ""
+      },
+      "Taxable Lump Sum Withdrawal":  {
+        "code": "TXLS",
+        "shortDescription": "Taxable Lump Sum Withdrawal",
+        "longDescription": ""
+      },
+      "Uncrystalised Pension Lump Sum Above LTA Age - UK SIPP":  {
+        "code": "ULSA",
+        "shortDescription": "Uncrystalised Pension Lump Sum Above LTA Age - UK SIPP",
+        "longDescription": ""
+      },
+      "Uncrystallised Pension Lump Sum Below LTA Age - UK SIPP":  {
+        "code": "ULSB",
+        "shortDescription": "Uncrystallised Pension Lump Sum Below LTA Age - UK SIPP",
+        "longDescription": ""
+      },
+      "Void Entire Plan":  {
+        "code": "VDPL",
+        "shortDescription": "Void Entire Plan",
+        "longDescription": ""
+      },
+      "Void Subscriptions":  {
+        "code": "VDPT",
+        "shortDescription": "Void Subscriptions",
+        "longDescription": ""
+      },
+      "Withdrawal":  {
+        "code": "WITH",
+        "shortDescription": "Withdrawal",
+        "longDescription": ""
+      },
+      "Regular Withdrawal":  {
+        "code": "WTHR",
+        "shortDescription": "Regular Withdrawal",
+        "longDescription": ""
+      }
+  },
+  "transferEventStatus": {
+    "Awaiting forms": {
+        "code": "AWDF",
+        "shortDescription": "Awaiting forms",
+        "longDescription": "Awaiting forms"
+      },
+      "Awaiting payment":  {
+        "code": "CFNR",
+        "shortDescription": "Awaiting payment",
+        "longDescription": "Awaiting payment"
+      },
+      "Cancelled":  {
+        "code": "CANC",
+        "shortDescription": "Cancelled",
+        "longDescription": "Cancelled"
+      },
+      "Complete":  {
+        "code": "COMP",
+        "shortDescription": "Complete",
+        "longDescription": "Complete"
+      },
+      "Received":  {
+        "code": "CRCV",
+        "shortDescription": "Received",
+        "longDescription": "Received"
+      },
+      "Requested from provider": {
+        "code": "INST",
+        "shortDescription": "Requested from provider",
+        "longDescription": "Requested from provider"
+      },
+      "Submitted": {
+        "code": "SUBM",
+        "shortDescription": "Submitted",
+        "longDescription": "Submitted"
+      },
+      "To be requested":  {
+        "code": "RECE",
+        "shortDescription": "To be requested",
+        "longDescription": "To be requested"
+      },
+      "Verify Provider":  {
+        "code": "VERP",
+        "shortDescription": "Verify Provider",
+        "longDescription": "Verify Provider"
+      }
+  },
+  "adviceType" : {
+    "Independent": {
+        "code": "INDE",
+        "shortDescription": "Independent",
+        "longDescription": "Independent"
+      },
+      "Restricted Single-tied": {
+        "code": "REST",
+        "shortDescription": "Restricted Single-tied",
+        "longDescription": "Restricted Single-tied"
+      },
+      "Whole of market": {
+        "code": "WMKT",
+        "shortDescription": "Restricted - Whole of market",
+        "longDescription": "Restricted - Whole of market"
+      },
+      "Restricted - Multi-tied": {
+        "code": "RDMT",
+        "shortDescription": "Restricted - Multi-tied",
+        "longDescription": "Restricted - Multi-tied"
+      },
+      "Simplified": {
+        "code": "SIMP",
+        "shortDescription": "Simplified",
+        "longDescription": "Simplified"
+      },
+      "Non-advised":  {
+        "code": "NONA",
+        "shortDescription": "Non-advised",
+        "longDescription": "Non-advised"
+      }
+  }
+}

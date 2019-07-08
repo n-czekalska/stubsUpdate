@@ -1,0 +1,3208 @@
+{
+  "addressType": {
+    "primaryAddress": {
+      "value": "PRIM",
+      "description": "Primary Address"
+    },
+    "residentialAddresses": {
+      "value": "RESI",
+      "description": "Residential Addresses"
+    },
+    "businessAddresses": {
+      "value": "BUSN",
+      "description": "Business Addresses"
+    }
+  },
+  "adviseType": {
+    "Advised": {
+      "value": "ADVI",
+      "description": "Advised"
+    },
+    "Non-Advised": {
+      "value": "NADV",
+      "description": "Non-Advised"
+    }
+  },
+  "adviserChargeFrequency": {
+    "Monthly": {
+      "value": "MTHY",
+      "description": "Monthly"
+    },
+    "Quarterly": {
+      "value": "QTLY",
+      "description": "Quarterly"
+    },
+    "Half yearly": {
+      "value": "HAYE",
+      "description": "Half yearly"
+    },
+    "Yearly": {
+      "value": "YRLY",
+      "description": "Yearly"
+    }
+  },
+  "adviserRestriction": {
+    "Defined Benefit Restriction": {
+      "value": "DBRT",
+      "description": "Defined Benefit Restriction"
+    },
+    "New Business Restriction": {
+      "value": "NBRT",
+      "description": "New Business Restriction"
+    }
+  },
+  "AMLVerificationClassification": {
+    "AML Pending": {
+      "value": "AMLA",
+      "description": "AML Pending"
+    },
+    "AML Not Verified": {
+      "value": "AMLN",
+      "description": "AML Not Verified"
+    },
+    "AML Pre-commencement": {
+      "value": "AMLP",
+      "description": "AML Pre-commencement"
+    },
+    "AML Refer": {
+      "value": "AMLR",
+      "description": "AML Refer"
+    },
+    "AML Verified": {
+      "value": "AMLV",
+      "description": "AML Verified"
+    }
+  },
+  "applicantStatus": {
+    "Draft": {
+      "value": "DRFT",
+      "description": "Draft"
+    },
+    "Live": {
+      "value": "LIVE",
+      "description": "Live"
+    },
+    "Exit": {
+      "value": "EXIT",
+      "description": "Exit"
+    }
+  },
+  "applicationStatus": {
+    "Completed": {
+      "value": "COMP",
+      "description": "Completed"
+    },
+    "Expired": {
+      "value": "EXPI",
+      "description": "Expired"
+    },
+    "Incomplete": {
+      "value": "INCO",
+      "description": "Incomplete"
+    },
+    "In Progress": {
+      "value": "INPR",
+      "description": "In Progress"
+    },
+    "Ready to submit": {
+      "value": "RTOS",
+      "description": "Ready to submit"
+    }
+  },
+  "assetClass": {
+    "Bonds": {
+      "value": "BOND",
+      "description": "Bonds"
+    },
+    "Cash": {
+      "value": "CASH",
+      "description": "Cash"
+    },
+    "Equities": {
+      "value": "EQUT",
+      "description": "Equities"
+    },
+    "Exchanged-traded Commodities": {
+      "value": "ETCS",
+      "description": "Exchanged-traded Commodities"
+    },
+    "Exchanged-traded Funds": {
+      "value": "ETFS",
+      "description": "Exchanged-traded Funds"
+    },
+    "Fixed Income": {
+      "value": "FIXI",
+      "description": "Fixed Income"
+    },
+    "Gilts": {
+      "value": "GILT",
+      "description": "Gilts"
+    },
+    "Investment Trusts": {
+      "value": "IVTS",
+      "description": "Investment Trusts"
+    },
+    "Listed Trusts": {
+      "value": "LTRU",
+      "description": "Listed Trusts"
+    },
+    "Off Platform": {
+      "value": "OFFP",
+      "description": "Off Platform"
+    },
+    "Preference Shares": {
+      "value": "PFSH",
+      "description": "Preference Shares"
+    },
+    "Smoothed Unit Price Asset": {
+      "value": "SMUP",
+      "description": "Smoothed Unit Price Asset"
+    },
+    "Structured Product": {
+      "value": "STPR",
+      "description": "Structured Product"
+    },
+    "Unit Trusts": {
+      "value": "UTRU",
+      "description": "Unit Trusts"
+    },
+    "With Profit Fund": {
+      "value": "WPFD",
+      "description": "With Profit Fund"
+    }
+  },
+  "authorisedThirdPartyType": {
+    "Legal Guardian": {
+      "value": "LEGU",
+      "description": "Legal Guardian"
+    },
+    "Power of Attorney": {
+      "value": "POA",
+      "description": "Power of Attorney"
+    },
+    "Employer": {
+      "value": "EMPL",
+      "description": "Employer"
+    },
+    "Trustees": {
+      "value": "TRUS",
+      "description": "Trustees"
+    },
+    "Contributor": {
+      "value": "CONT",
+      "description": "Contributor"
+    },
+    "Info Only Third Party": {
+      "value": "IOTP",
+      "description": "Info Only Third Party"
+    },
+    "Assignee": {
+      "value": "ASIG",
+      "description": "Assignee"
+    }
+  },
+  "authorityLevel": {
+    "Full Authority": {
+      "value": "FLAT",
+      "description": "Full Authority"
+    },
+    "Information Only Authority": {
+      "value": "INFO",
+      "description": "Information Only Authority"
+    },
+    "Specific Rights": {
+      "value": "SPEC",
+      "description": "Specific Rights"
+    }
+  },
+  "BCEType": {
+    "Designating Funds into Drawdown": {
+      "value": "BCE1",
+      "description": "Designating Funds into Drawdown"
+    },
+    "Scheme Pension Entiitlements": {
+      "value": "BCE2",
+      "description": "Scheme Pension Entiitlements"
+    },
+    "Increased Scheme Pension In Payment": {
+      "value": "BCE3",
+      "description": "Increased Scheme Pension In Payment"
+    },
+    "Purchase of Lifetime Annuity": {
+      "value": "BCE4",
+      "description": "Purchase of Lifetime Annuity"
+    },
+    "Age Based LTA Test on Crystallised Funds (BCE5A) - Dec Accounts": {
+      "value": "BC5A",
+      "description": "Age Based LTA Test on Crystallised Funds (BCE5A) - Dec Accounts"
+    },
+    "Age Based LTA Test on Uncrystallised Funds (BCE5B) - Acc Accounts": {
+      "value": "BC5B",
+      "description": "Age Based LTA Test on Uncrystallised Funds (BCE5B) - Acc Accounts"
+    },
+    "Relevant Lump Sums": {
+      "value": "BCE6",
+      "description": "Relevant Lump Sums"
+    },
+    "Death Benefit on Lump Sum": {
+      "value": "BCE7",
+      "description": "Death Benefit on Lump Sum"
+    },
+    "Transfer to Qualifying Registered Pension Scheme": {
+      "value": "BCE8",
+      "description": "Transfer to Qualifying Registered Pension Scheme"
+    }
+  },
+  "beneficiaryRelationship": {
+    "Child": {
+      "value": "CHIL",
+      "description": "Child"
+    },
+    "Other": {
+      "value": "OTHE",
+      "description": "Other"
+    },
+    "Other Relative": {
+      "value": "OTHR",
+      "description": "Other Relative"
+    },
+    "Parent": {
+      "value": "PARE",
+      "description": "Parent"
+    },
+    "Partner": {
+      "value": "PART",
+      "description": "Partner"
+    },
+    "Sibling": {
+      "value": "SIBL",
+      "description": "Sibling"
+    },
+    "Spouse": {
+      "value": "SPOU",
+      "description": "Spouse"
+    },
+    "Trustee": {
+      "value": "TRUS",
+      "description": "Trustee"
+    }
+  },
+  "beneficiaryType": {
+    "Charity": {
+      "value": "CHAR",
+      "description": "Charity"
+    },
+    "Trust": {
+      "value": "TRST",
+      "description": "Trust"
+    },
+    "Individual": {
+      "value": "INDI",
+      "description": "Individual"
+    }
+  },
+  "cashManagementOption": {
+    "Account Cash Target": {
+      "value": "ACCT",
+      "description": "Account Cash Target"
+    },
+    "Cash In Model Portfolio": {
+      "value": "CSMD",
+      "description": "Cash In Model Portfolio"
+    },
+    "Disinvestment when Cash Required": {
+      "value": "DSIN",
+      "description": "Disinvestment when Cash Required"
+    },
+    "Product Cash Target": {
+      "value": "PRCT",
+      "description": "Product Cash Target"
+    }
+  },
+  "chargeBasisType": {
+    "Percentage": {
+      "value": "PRCT",
+      "description": "Percentage"
+    },
+    "Amount": {
+      "value": "AMNT",
+      "description": "Amount"
+    }
+  },
+  "chargePeriodType": {
+    "Initial": {
+      "value": "INIT",
+      "description": "Initial"
+    },
+    "Adhoc": {
+      "value": "ADHC",
+      "description": "Adhoc"
+    },
+    "Ongoing": {
+      "value": "ONGO",
+      "description": "Ongoing"
+    },
+    "ASAP": {
+      "value": "ASAP",
+      "description": "ASAP"
+    }
+  },
+  "clientCorrespondencePreferredDeliveryMethod": {
+    "Default": {
+      "value": "DFLT",
+      "description": "Default"
+    },
+    "Email": {
+      "value": "EMAL",
+      "description": "Email"
+    },
+    "Post": {
+      "value": "POST",
+      "description": "Post"
+    },
+    "SMS": {
+      "value": "SMS",
+      "description": "SMS"
+    },
+    "Special": {
+      "value": "SPEC",
+      "description": "Special"
+    }
+  },
+  "clientStatus": {
+    "Inactive Client": {
+      "value": "INAT",
+      "description": "Inactive Client"
+    },
+    "Alive": {
+      "value": "ALIV",
+      "description": "Alive"
+    },
+    "Deceased": {
+      "value": "DEAD",
+      "description": "Deceased"
+    }
+  },
+  "clientToClientRoleType": {
+    "Associated Employer": {
+      "value": "AER",
+      "description": "Associated Employer"
+    },
+    "AIT": {
+      "value": "AIT",
+      "description": ""
+    },
+    "CIT": {
+      "value": "CIT",
+      "description": ""
+    },
+    "Contributor": {
+      "value": "CTB",
+      "description": "Contributor"
+    },
+    "Employer": {
+      "value": "EMR",
+      "description": "Employer"
+    },
+    "Member": {
+      "value": "MBR",
+      "description": "Member"
+    },
+    "SAS": {
+      "value": "SAS",
+      "description": ""
+    }
+  },
+  "clientType": {
+    "An individual client": {
+      "value": "PERS",
+      "description": "An individual client"
+    },
+    "Company": {
+      "value": "COMP",
+      "description": "Company (Business)"
+    }
+  },
+  "contactType": {
+    "Address": {
+      "value": "ADDR",
+      "description": "Address"
+    },
+    "Email": {
+      "value": "EMAL",
+      "description": "Email"
+    },
+    "Mobile": {
+      "value": "MOBI",
+      "description": "Mobile"
+    },
+    "Phone": {
+      "value": "PHON",
+      "description": "Phone"
+    },
+    "Fax": {
+      "value": "FAX",
+      "description": "Fax"
+    }
+  },
+  "contributionFrequencyType": {
+    "Monthly": {
+      "value": "MTHY",
+      "description": "Monthly"
+    },
+    "Quarterly": {
+      "value": "QTLY",
+      "description": "Quarterly"
+    },
+    "Half yearly": {
+      "value": "HAYE",
+      "description": "Half yearly"
+    },
+    "Yearly": {
+      "value": "YRLY",
+      "description": "Yearly"
+    },
+    "Lunar": {
+      "value": "LUNR",
+      "description": "Lunar"
+    }
+  },
+  "contributionPayer": {
+    "Business": {
+      "value": "BUSI",
+      "description": "Business"
+    },
+    "Client": {
+      "value": "CLIE",
+      "description": "Client"
+    },
+    "Employer": {
+      "value": "EMPL",
+      "description": "Employer"
+    },
+    "Person": {
+      "value": "PERS",
+      "description": "Person"
+    }
+  },
+  "contributorType": {
+    "Employer": {
+      "value": "EMPL",
+      "description": "Employer"
+    },
+    "PlanHolder": {
+      "value": "PLNH",
+      "description": "Plan Holder"
+    },
+    "PolicyHolder": {
+      "value": "PLNH",
+      "description": "Policy Holder"
+    }
+  },
+  "correspondenceType": {
+    "Existing Business Illustrations": {
+      "value": "EBI",
+      "description": "Existing Business Illustrations"
+    },
+    "New Business journey": {
+      "value": "NWB",
+      "description": "New Business journey"
+    },
+    "Plan Changes": {
+      "value": "PCH",
+      "description": "Plan Changes"
+    },
+    "Adviser Remuneration": {
+      "value": "REM",
+      "description": "Adviser Remuneration"
+    },
+    "Retirement Planning Tools": {
+      "value": "RPT",
+      "description": "Retirement Planning Tools"
+    },
+    "Using My Savings / Exits": {
+      "value": "UMS",
+      "description": "Using My Savings / Exits"
+    },
+    "Single Sign on": {
+      "value": "SSO",
+      "description": "Single Sign on"
+    }
+  },
+  "countryList": {
+    "Afghanistan": {
+      "value": "AF",
+      "description": "Afghanistan"
+    },
+    "Aland Islands": {
+      "value": "AX",
+      "description": "Aland Islands"
+    },
+    "Albania": {
+      "value": "AL",
+      "description": "Albania"
+    },
+    "Algeria": {
+      "value": "DZ",
+      "description": "Algeria"
+    },
+    "American Samoa": {
+      "value": "AS",
+      "description": "American Samoa"
+    },
+    "Andorra": {
+      "value": "AD",
+      "description": "Andorra"
+    },
+    "Angola": {
+      "value": "AO",
+      "description": "Angola"
+    },
+    "Anguilla": {
+      "value": "AI",
+      "description": "Anguilla"
+    },
+    "Antarctica": {
+      "value": "AQ",
+      "description": "Antarctica"
+    },
+    "Antigua and Barbuda": {
+      "value": "AG",
+      "description": "Antigua and Barbuda"
+    },
+    "Argentina": {
+      "value": "AR",
+      "description": "Argentina"
+    },
+    "Armenia": {
+      "value": "AM",
+      "description": "Armenia"
+    },
+    "Aruba": {
+      "value": "AW",
+      "description": "Aruba"
+    },
+    "Australia": {
+      "value": "AU",
+      "description": "Australia"
+    },
+    "Austria": {
+      "value": "AT",
+      "description": "Austria"
+    },
+    "Azerbaijan": {
+      "value": "AZ",
+      "description": "Azerbaijan"
+    },
+    "Bahamas": {
+      "value": "BS",
+      "description": "Bahamas"
+    },
+    "Bahrain": {
+      "value": "BH",
+      "description": "Bahrain"
+    },
+    "Bangladesh": {
+      "value": "BD",
+      "description": "Bangladesh"
+    },
+    "Barbados": {
+      "value": "BB",
+      "description": "Barbados"
+    },
+    "Belarus": {
+      "value": "BY",
+      "description": "Belarus"
+    },
+    "Belgium": {
+      "value": "BE",
+      "description": "Belgium"
+    },
+    "Belize": {
+      "value": "BZ",
+      "description": "Belize"
+    },
+    "Benin": {
+      "value": "BJ",
+      "description": "Benin"
+    },
+    "Bermuda": {
+      "value": "BM",
+      "description": "Bermuda"
+    },
+    "Bhutan": {
+      "value": "BT",
+      "description": "Bhutan"
+    },
+    "Bolivia": {
+      "value": "BO",
+      "description": "Bolivia"
+    },
+    "Bonaire Saint Eustatius, and Saba Islands": {
+      "value": "BQ",
+      "description": "Bonaire Saint Eustatius, and Saba Islands"
+    },
+    "Bosnia-Herzegovina": {
+      "value": "BA",
+      "description": "Bosnia-Herzegovina"
+    },
+    "Botswana": {
+      "value": "BW",
+      "description": "Botswana"
+    },
+    "Bouvet Island": {
+      "value": "BV",
+      "description": "Bouvet Island"
+    },
+    "Brazil": {
+      "value": "BR",
+      "description": "Brazil"
+    },
+    "British Indian Ocean Territory": {
+      "value": "IO",
+      "description": "British Indian Ocean Territory"
+    },
+    "Brunei Darussalam": {
+      "value": "BN",
+      "description": "Brunei Darussalam"
+    },
+    "Bulgaria": {
+      "value": "BG",
+      "description": "Bulgaria"
+    },
+    "Burkina Faso": {
+      "value": "BF",
+      "description": "Burkina Faso"
+    },
+    "Burundi": {
+      "value": "BI",
+      "description": "Burundi"
+    },
+    "Cambodia": {
+      "value": "KH",
+      "description": "Cambodia"
+    },
+    "Cameroon": {
+      "value": "CM",
+      "description": "Cameroon"
+    },
+    "Canada": {
+      "value": "CA",
+      "description": "Canada"
+    },
+    "Cape Verde": {
+      "value": "CV",
+      "description": "Cape Verde"
+    },
+    "Cayman Islands": {
+      "value": "KY",
+      "description": "Cayman Islands"
+    },
+    "Central African Republic": {
+      "value": "CF",
+      "description": "Central African Republic"
+    },
+    "Chad": {
+      "value": "TD",
+      "description": "Chad"
+    },
+    "Chile": {
+      "value": "CL",
+      "description": "Chile"
+    },
+    "China": {
+      "value": "CN",
+      "description": "China"
+    },
+    "Christmas Island": {
+      "value": "CX",
+      "description": "Christmas Island"
+    },
+    "Cocos (Keeling) Islands": {
+      "value": "CC",
+      "description": "Cocos (Keeling) Islands"
+    },
+    "Colombia": {
+      "value": "CO",
+      "description": "Colombia"
+    },
+    "Comoros": {
+      "value": "KM",
+      "description": "Comoros"
+    },
+    "Congo, Democratic Republic of": {
+      "value": "ZR",
+      "description": "Congo, Democratic Republic of (was Zaire)"
+    },
+    "Congo, People's Republic of": {
+      "value": "CG",
+      "description": "Congo, People's Republic of"
+    },
+    "Cook Islands": {
+      "value": "CK",
+      "description": "Cook Islands"
+    },
+    "Costa Rica": {
+      "value": "CR",
+      "description": "Costa Rica"
+    },
+    "Croatia": {
+      "value": "HR",
+      "description": "Croatia"
+    },
+    "Cuba": {
+      "value": "CU",
+      "description": "Cuba"
+    },
+    "Curacao": {
+      "value": "CW",
+      "description": "Curacao"
+    },
+    "Cyprus": {
+      "value": "CY",
+      "description": "Cyprus"
+    },
+    "Czech Republic": {
+      "value": "CZ",
+      "description": "Czech Republic"
+    },
+    "Denmark": {
+      "value": "DK",
+      "description": "Denmark"
+    },
+    "Djibouti": {
+      "value": "DJ",
+      "description": "Djibouti"
+    },
+    "Dominica": {
+      "value": "DM",
+      "description": "Dominica"
+    },
+    "Dominican Republic": {
+      "value": "DO",
+      "description": "Dominican Republic"
+    },
+    "East Timor": {
+      "value": "TP",
+      "description": "East Timor"
+    },
+    "Ecuador": {
+      "value": "EC",
+      "description": "Ecuador"
+    },
+    "Egypt": {
+      "value": "EG",
+      "description": "Egypt"
+    },
+    "El Salvador": {
+      "value": "SV",
+      "description": "El Salvador"
+    },
+    "Equatorial Guinea": {
+      "value": "GQ",
+      "description": "Equatorial Guinea"
+    },
+    "Eritrea": {
+      "value": "ER",
+      "description": "Eritrea"
+    },
+    "Estonia": {
+      "value": "EE",
+      "description": "Estonia"
+    },
+    "Ethiopia": {
+      "value": "ET",
+      "description": "Ethiopia"
+    },
+    "Falkland Islands": {
+      "value": "FK",
+      "description": "Falkland Islands"
+    },
+    "Faroe Islands": {
+      "value": "FO",
+      "description": "Faroe Islands"
+    },
+    "Fiji": {
+      "value": "FJ",
+      "description": "Fiji"
+    },
+    "Finland": {
+      "value": "FI",
+      "description": "Finland"
+    },
+    "Former Czechoslovakia": {
+      "value": "CS",
+      "description": "Former Czechoslovakia"
+    },
+    "Former USSR": {
+      "value": "SU",
+      "description": "Former USSR"
+    },
+    "France": {
+      "value": "FR",
+      "description": "France"
+    },
+    "France (European Territory)": {
+      "value": "FX",
+      "description": "France (European Territory)"
+    },
+    "French Guiana": {
+      "value": "GF",
+      "description": "French Guiana"
+    },
+    "French Southern Territories": {
+      "value": "TF",
+      "description": "French Southern Territories"
+    },
+    "Gabon": {
+      "value": "GA",
+      "description": "Gabon"
+    },
+    "Gambia": {
+      "value": "GM",
+      "description": "Gambia"
+    },
+    "Georgia": {
+      "value": "GE",
+      "description": "Georgia"
+    },
+    "Germany": {
+      "value": "DE",
+      "description": "Germany"
+    },
+    "Ghana": {
+      "value": "GH",
+      "description": "Ghana"
+    },
+    "Gibraltar": {
+      "value": "GI",
+      "description": "Gibraltar"
+    },
+    "Greece": {
+      "value": "GR",
+      "description": "Greece"
+    },
+    "Greenland": {
+      "value": "GL",
+      "description": "Greenland"
+    },
+    "Grenada": {
+      "value": "GD",
+      "description": "Grenada"
+    },
+    "Guadeloupe (French)": {
+      "value": "GP",
+      "description": "Guadeloupe (French)"
+    },
+    "Guam (USA)": {
+      "value": "GU",
+      "description": "Guam (USA)"
+    },
+    "Guatemala": {
+      "value": "GT",
+      "description": "Guatemala"
+    },
+    "Guernsey": {
+      "value": "GG",
+      "description": "Guernsey"
+    },
+    "Guinea": {
+      "value": "GN",
+      "description": "Guinea"
+    },
+    "Guinea Bissau": {
+      "value": "GW",
+      "description": "Guinea Bissau"
+    },
+    "Guyana": {
+      "value": "GY",
+      "description": "Guyana"
+    },
+    "Haiti": {
+      "value": "HT",
+      "description": "Haiti"
+    },
+    "Heard and McDonald Islands": {
+      "value": "HM",
+      "description": "Heard and McDonald Islands"
+    },
+    "Honduras": {
+      "value": "HN",
+      "description": "Honduras"
+    },
+    "Hong Kong": {
+      "value": "HK",
+      "description": "Hong Kong"
+    },
+    "Hungary": {
+      "value": "HU",
+      "description": "Hungary"
+    },
+    "Iceland": {
+      "value": "IS",
+      "description": "Iceland"
+    },
+    "India": {
+      "value": "IN",
+      "description": "India"
+    },
+    "Indonesia": {
+      "value": "ID",
+      "description": "Indonesia"
+    },
+    "Iran": {
+      "value": "IR",
+      "description": "Iran"
+    },
+    "Iraq": {
+      "value": "IQ",
+      "description": "Iraq"
+    },
+    "Ireland": {
+      "value": "IE",
+      "description": "Ireland"
+    },
+    "Isle of Man, The": {
+      "value": "IM",
+      "description": "Isle of Man, The"
+    },
+    "Israel": {
+      "value": "IL",
+      "description": "Israel"
+    },
+    "Italy": {
+      "value": "IT",
+      "description": "Italy"
+    },
+    "Ivory Coast": {
+      "value": "CI",
+      "description": "Ivory Coast (Cote D'Ivoire)"
+    },
+    "Jamaica": {
+      "value": "JM",
+      "description": "Jamaica"
+    },
+    "Japan": {
+      "value": "JP",
+      "description": "Japan"
+    },
+    "Jersey": {
+      "value": "JE",
+      "description": "Jersey"
+    },
+    "Jordan": {
+      "value": "JO",
+      "description": "Jordan"
+    },
+    "Kazakhstan": {
+      "value": "KZ",
+      "description": "Kazakhstan"
+    },
+    "Kenya": {
+      "value": "KE",
+      "description": "Kenya"
+    },
+    "Kiribati": {
+      "value": "KI",
+      "description": "Kiribati"
+    },
+    "Kuwait": {
+      "value": "KW",
+      "description": "Kuwait"
+    },
+    "Kyrgyzstan": {
+      "value": "KG",
+      "description": "Kyrgyzstan"
+    },
+    "Laos": {
+      "value": "LA",
+      "description": "Laos"
+    },
+    "Latvia": {
+      "value": "LV",
+      "description": "Latvia"
+    },
+    "Lebanon": {
+      "value": "LB",
+      "description": "Lebanon"
+    },
+    "Lesotho": {
+      "value": "LS",
+      "description": "Lesotho"
+    },
+    "Liberia": {
+      "value": "LR",
+      "description": "Liberia"
+    },
+    "Libya": {
+      "value": "LY",
+      "description": "Libya"
+    },
+    "Liechtenstein": {
+      "value": "LI",
+      "description": "Liechtenstein"
+    },
+    "Lithuania": {
+      "value": "LT",
+      "description": "Lithuania"
+    },
+    "Luxembourg": {
+      "value": "LU",
+      "description": "Luxembourg"
+    },
+    "Macau": {
+      "value": "MO",
+      "description": "Macau"
+    },
+    "Macedonia": {
+      "value": "MK",
+      "description": "Macedonia"
+    },
+    "Madagascar": {
+      "value": "MG",
+      "description": "Madagascar"
+    },
+    "Malawi": {
+      "value": "MW",
+      "description": "Malawi"
+    },
+    "Malaysia": {
+      "value": "MY",
+      "description": "Malaysia"
+    },
+    "Maldives": {
+      "value": "MV",
+      "description": "Maldives"
+    },
+    "Mali": {
+      "value": "ML",
+      "description": "Mali"
+    },
+    "Malta": {
+      "value": "MT",
+      "description": "Malta"
+    },
+    "Marshall Islands": {
+      "value": "MH",
+      "description": "Marshall Islands"
+    },
+    "Martinique (French)": {
+      "value": "MQ",
+      "description": "Martinique (French)"
+    },
+    "Mauritania": {
+      "value": "MR",
+      "description": "Mauritania"
+    },
+    "Mauritius": {
+      "value": "MU",
+      "description": "Mauritius"
+    },
+    "Mayotte": {
+      "value": "YT",
+      "description": "Mayotte"
+    },
+    "Mexico": {
+      "value": "MX",
+      "description": "Mexico"
+    },
+    "Micronesia": {
+      "value": "FM",
+      "description": "Micronesia"
+    },
+    "Moldova": {
+      "value": "MD",
+      "description": "Moldova"
+    },
+    "Monaco": {
+      "value": "MC",
+      "description": "Monaco"
+    },
+    "Mongolia": {
+      "value": "MN",
+      "description": "Mongolia"
+    },
+    "Montenegro": {
+      "value": "ME",
+      "description": "Montenegro"
+    },
+    "Montserrat": {
+      "value": "MS",
+      "description": "Montserrat"
+    },
+    "Morocco": {
+      "value": "MA",
+      "description": "Morocco"
+    },
+    "Mozambique": {
+      "value": "MZ",
+      "description": "Mozambique"
+    },
+    "Myanmar": {
+      "value": "MM",
+      "description": "Myanmar"
+    },
+    "Namibia": {
+      "value": "NA",
+      "description": "Namibia"
+    },
+    "Nauru": {
+      "value": "NR",
+      "description": "Nauru"
+    },
+    "Nepal": {
+      "value": "NP",
+      "description": "Nepal"
+    },
+    "Netherlands": {
+      "value": "NL",
+      "description": "Netherlands"
+    },
+    "Netherlands Antilles": {
+      "value": "AN",
+      "description": "Netherlands Antilles"
+    },
+    "Neutral Zone": {
+      "value": "NT",
+      "description": "Neutral Zone"
+    },
+    "New Caledonia (French)": {
+      "value": "NC",
+      "description": "New Caledonia (French)"
+    },
+    "New Zealand": {
+      "value": "NZ",
+      "description": "New Zealand"
+    },
+    "Nicaragua": {
+      "value": "NI",
+      "description": "Nicaragua"
+    },
+    "Niger": {
+      "value": "NE",
+      "description": "Niger"
+    },
+    "Nigeria": {
+      "value": "NG",
+      "description": "Nigeria"
+    },
+    "Niue": {
+      "value": "NU",
+      "description": "Niue"
+    },
+    "Norfolk Island": {
+      "value": "NF",
+      "description": "Norfolk Island"
+    },
+    "North Korea": {
+      "value": "KP",
+      "description": "North Korea"
+    },
+    "Northern Mariana Islands": {
+      "value": "MP",
+      "description": "Northern Mariana Islands"
+    },
+    "Norway": {
+      "value": "NO",
+      "description": "Norway"
+    },
+    "Oman": {
+      "value": "OM",
+      "description": "Oman"
+    },
+    "Other": {
+      "value": "OT",
+      "description": "Other"
+    },
+    "Pakistan": {
+      "value": "PK",
+      "description": "Pakistan"
+    },
+    "Palau": {
+      "value": "PW",
+      "description": "Palau"
+    },
+    "Palestinian Territory, Occupied": {
+      "value": "PS",
+      "description": "Palestinian Territory, Occupied"
+    },
+    "Panama": {
+      "value": "PA",
+      "description": "Panama"
+    },
+    "Papua New Guinea": {
+      "value": "PG",
+      "description": "Papua New Guinea"
+    },
+    "Paraguay": {
+      "value": "PY",
+      "description": "Paraguay"
+    },
+    "Peru": {
+      "value": "PE",
+      "description": "Peru"
+    },
+    "Philippines": {
+      "value": "PH",
+      "description": "Philippines"
+    },
+    "Pitcairn Island": {
+      "value": "PN",
+      "description": "Pitcairn Island"
+    },
+    "Poland": {
+      "value": "PL",
+      "description": "Poland"
+    },
+    "Polynesia (French)": {
+      "value": "PF",
+      "description": "Polynesia (French)"
+    },
+    "Portugal": {
+      "value": "PT",
+      "description": "Portugal"
+    },
+    "Puerto Rico": {
+      "value": "PR",
+      "description": "Puerto Rico"
+    },
+    "Qatar": {
+      "value": "QA",
+      "description": "Qatar"
+    },
+    "Reunion (French)": {
+      "value": "RE",
+      "description": "Reunion (French)"
+    },
+    "Romania": {
+      "value": "RO",
+      "description": "Romania"
+    },
+    "Russia": {
+      "value": "RU",
+      "description": "Russia"
+    },
+    "Rwanda": {
+      "value": "RW",
+      "description": "Rwanda"
+    },
+    "S. Georgia & S. Sandwich Isls.": {
+      "value": "GS",
+      "description": "S. Georgia & S. Sandwich Isls."
+    },
+    "Saint Barthelemy": {
+      "value": "BL",
+      "description": "Saint Barthelemy"
+    },
+    "Saint Helena": {
+      "value": "SH",
+      "description": "Saint Helena"
+    },
+    "Saint Kitts & Nevis Anguilla": {
+      "value": "KN",
+      "description": "Saint Kitts & Nevis Anguilla"
+    },
+    "Saint Lucia": {
+      "value": "LC",
+      "description": "Saint Lucia"
+    },
+    "Saint Martin (Dutch part)": {
+      "value": "SX",
+      "description": "Saint Martin (Dutch part)"
+    },
+    "Saint Martin (French part)": {
+      "value": "MF",
+      "description": "Saint Martin (French part)"
+    },
+    "Saint Pierre and Miquelon": {
+      "value": "PM",
+      "description": "Saint Pierre and Miquelon"
+    },
+    "Saint Vincent & Grenadines": {
+      "value": "VC",
+      "description": "Saint Vincent & Grenadines"
+    },
+    "Samoa": {
+      "value": "WS",
+      "description": "Samoa"
+    },
+    "San Marino": {
+      "value": "SM",
+      "description": "San Marino"
+    },
+    "Sao Tome and Principe": {
+      "value": "ST",
+      "description": "Sao Tome and Principe"
+    },
+    "Saudi Arabia": {
+      "value": "SA",
+      "description": "Saudi Arabia"
+    },
+    "Senegal": {
+      "value": "SN",
+      "description": "Senegal"
+    },
+    "Serbia": {
+      "value": "RS",
+      "description": "Serbia"
+    },
+    "Seychelles": {
+      "value": "SC",
+      "description": "Seychelles"
+    },
+    "Sierra Leone": {
+      "value": "SL",
+      "description": "Sierra Leone"
+    },
+    "Singapore": {
+      "value": "SG",
+      "description": "Singapore"
+    },
+    "Slovak Republic": {
+      "value": "SK",
+      "description": "Slovak Republic"
+    },
+    "Slovenia": {
+      "value": "SI",
+      "description": "Slovenia"
+    },
+    "Solomon Islands": {
+      "value": "SB",
+      "description": "Solomon Islands"
+    },
+    "Somalia": {
+      "value": "SO",
+      "description": "Somalia"
+    },
+    "South Africa": {
+      "value": "ZA",
+      "description": "South Africa"
+    },
+    "South Korea": {
+      "value": "KR",
+      "description": "South Korea"
+    },
+    "South Sudan": {
+      "value": "SS",
+      "description": "South Sudan"
+    },
+    "Spain": {
+      "value": "ES",
+      "description": "Spain"
+    },
+    "Sri Lanka": {
+      "value": "LK",
+      "description": "Sri Lanka"
+    },
+    "Sudan": {
+      "value": "SD",
+      "description": "Sudan"
+    },
+    "Suridescription": {
+      "value": "SR",
+      "description": "Suridescription"
+    },
+    "Svalbard and Jan Mayen Islands": {
+      "value": "SJ",
+      "description": "Svalbard and Jan Mayen Islands"
+    },
+    "Swaziland": {
+      "value": "SZ",
+      "description": "Swaziland"
+    },
+    "Sweden": {
+      "value": "SE",
+      "description": "Sweden"
+    },
+    "Switzerland": {
+      "value": "CH",
+      "description": "Switzerland"
+    },
+    "Syria": {
+      "value": "SY",
+      "description": "Syria"
+    },
+    "Taiwan": {
+      "value": "TW",
+      "description": "Taiwan"
+    },
+    "Tajikistan": {
+      "value": "TJ",
+      "description": "Tajikistan"
+    },
+    "Tanzania": {
+      "value": "TZ",
+      "description": "Tanzania"
+    },
+    "Thailand": {
+      "value": "TH",
+      "description": "Thailand"
+    },
+    "Togo": {
+      "value": "TG",
+      "description": "Togo"
+    },
+    "Tokelau": {
+      "value": "TK",
+      "description": "Tokelau"
+    },
+    "Tonga": {
+      "value": "TO",
+      "description": "Tonga"
+    },
+    "Trinidad and Tobago": {
+      "value": "TT",
+      "description": "Trinidad and Tobago"
+    },
+    "Tunisia": {
+      "value": "TN",
+      "description": "Tunisia"
+    },
+    "Turkey": {
+      "value": "TR",
+      "description": "Turkey"
+    },
+    "Turkmenistan": {
+      "value": "TM",
+      "description": "Turkmenistan"
+    },
+    "Turks and Caicos Islands": {
+      "value": "TC",
+      "description": "Turks and Caicos Islands"
+    },
+    "Tuvalu": {
+      "value": "TV",
+      "description": "Tuvalu"
+    },
+    "USA Minor Outlying Islands": {
+      "value": "UM",
+      "description": "USA Minor Outlying Islands"
+    },
+    "Uganda": {
+      "value": "UG",
+      "description": "Uganda"
+    },
+    "Ukraine": {
+      "value": "UA",
+      "description": "Ukraine"
+    },
+    "United Arab Emirates": {
+      "value": "AE",
+      "description": "United Arab Emirates"
+    },
+    "United Kingdom": {
+      "value": "UK",
+      "description": "United Kingdom"
+    },
+    "United States": {
+      "value": "US",
+      "description": "United States"
+    },
+    "Uruguay": {
+      "value": "UY",
+      "description": "Uruguay"
+    },
+    "Uzbekistan": {
+      "value": "UZ",
+      "description": "Uzbekistan"
+    },
+    "Vanuatu": {
+      "value": "VU",
+      "description": "Vanuatu"
+    },
+    "Vatican City State": {
+      "value": "VA",
+      "description": "Vatican City State"
+    },
+    "Venezuela": {
+      "value": "VE",
+      "description": "Venezuela"
+    },
+    "Vietnam": {
+      "value": "VN",
+      "description": "Vietnam"
+    },
+    "Virgin Islands (British)": {
+      "value": "VG",
+      "description": "Virgin Islands (British)"
+    },
+    "Virgin Islands (USA)": {
+      "value": "VI",
+      "description": "Virgin Islands (USA)"
+    },
+    "Wallis and Futuna Islands": {
+      "value": "WF",
+      "description": "Wallis and Futuna Islands"
+    },
+    "Western Sahara": {
+      "value": "EH",
+      "description": "Western Sahara"
+    },
+    "Yemen": {
+      "value": "YE",
+      "description": "Yemen"
+    },
+    "Yugoslavia": {
+      "value": "YU",
+      "description": "Yugoslavia"
+    },
+    "Zambia": {
+      "value": "ZM",
+      "description": "Zambia"
+    },
+    "Zimbabwe": {
+      "value": "ZW",
+      "description": "Zimbabwe"
+    }
+  },
+  "directDebitStatus": {
+    "Cancelled": {
+      "value": "CANC",
+      "description": "Cancelled"    },
+    "Active": {
+      "value": "ACTI",
+      "description": "Active"
+    }
+  },
+  "discretionaryPaymentType": {
+    "RL discretion": {
+      "value": "RLDI",
+      "description": "RL discretion"
+    },
+    "At my direction": {
+      "value": "ATMY",
+      "description": "At my direction"
+    }  },
+  "documentRecipientType": {
+    "Advisor": {
+      "value": "ADVR",
+      "description": "Advisor"
+    },    "Customer": {
+      "value": "CUST",
+      "description": "Customer"
+    },
+    "Receiving Scheme": {
+      "value": "RCVS",
+      "description": "Receiving Scheme"
+    }
+  },
+  "drawdownGovernanceTargetType": {
+    "Income": {
+      "value": "DGIN",
+      "description": "Income"
+    },
+    "Age": {
+      "value": "DGAG",
+      "description": "Age"
+    }
+  },
+  "employmentStatus": {
+    "Carer - one or more children under 16": {
+      "value": "CARU",
+      "description": "Carer - one or more children under 16"
+    },
+    "Carer - for persons over 16": {
+      "value": "CARO",
+      "description": "Carer - for persons over 16"
+    },
+    "Employed": {
+      "value": "EMPL",
+      "description": "Employed"
+    },
+    "Full Time Education": {
+      "value": "EDU",
+      "description": "Full Time Education"
+    },
+    "Child under 16 years": {
+      "value": "CHIL",      "description": "Child under 16 years"
+    },
+    "SelfEmployed": {
+      "value": "SEMP",
+      "description": "Self-Employed"
+    },    "Other employment status not listed": {
+      "value": "OTHR",
+      "description": "Other employment status not listed"
+    },
+    "Retired": {
+      "value": "RETI",
+      "description": "Retired"
+    },    "Unemployed": {
+      "value": "UNEM",
+      "description": "Unemployed"
+    }
+  },
+  "employmentType": {
+    "MemberOfOccupationalPensionScheme": {
+      "value": "MOPS",
+      "description": "Member of Occupational Pension Scheme"
+    },
+    "Other": {
+      "value": "OTHR",
+      "description": "Other"
+    },
+    "SelfEmployed": {
+      "value": "SELF",
+      "description": "Self Employed"
+    },
+    "Unemployed": {
+      "value": "UNEP",
+      "description": "Unemployed"
+    }
+  },
+  "enquiryResponseStatus": {
+    "Error": {
+      "value": "ERR",
+      "description": "Error"
+    },
+    "Success": {
+      "value": "SUCC",
+      "description": "Success"
+    },
+    "Warning": {
+      "value": "WARN",
+      "description": "Warning"
+    }
+  },
+  "escalationType": {
+    "CPI": {
+      "value": "CPI",
+      "description": "CPI"
+    },
+    "Fixed": {
+      "value": "FIXD",
+      "description": "Fixed"
+    },
+    "RPI": {
+      "value": "RPI",
+      "description": "RPI"
+    },
+    "Salary": {
+      "value": "SALA",
+      "description": "Salary"
+    },
+    "AWE": {
+      "value": "AWE",
+      "description": "AWE"
+    },
+    "Level": {
+      "value": "LEVE",
+      "description": "Level"
+    },
+    "LPI": {
+      "value": "LPIC",
+      "description": "LPI"
+    }
+  },
+  "eventType": {
+    "AddressChange": {
+      "value": "",
+      "description": "Address Change"
+    },
+    "AdviserAddition": {
+      "value": "",
+      "description": "Adviser Addition"
+    },
+    "AdviserCharges Change": {
+      "value": "",
+      "description": "Adviser Charges Change"
+    },
+    "AdviserRemoval": {
+      "value": "",
+      "description": "Adviser Removal"
+    },
+    "ApplicationSubmitted": {
+      "value": "",
+      "description": "Application Submitted"
+    },
+    "AuthorisedThirdParty Change": {
+      "value": "",
+      "description": "Authorised Third Party Change"
+    },
+    "BeneficiaryChange": {
+      "value": "",
+      "description": "BeneficiaryChange"
+    },
+    "ChangeofInvestment": {
+      "value": "",
+      "description": "Change of Investment"
+    },
+    "ChangeofProtectionStatus": {
+      "value": "",
+      "description": "Change of Protection Status"
+    },
+    "ContributionStatusChange": {
+      "value": "",
+      "description": "ContributionStatus Change"
+    },
+    "ContributionValueChange": {
+      "value": "",
+      "description": "Contribution ValueChange"
+    },
+    "ContributionsChange": {
+      "value": "",
+      "description": "ContributionsChange"
+    },
+    "DirectDebitChange": {
+      "value": "",
+      "description": "Direct Debit Change"
+    },
+    "EmailAddressChange": {
+      "value": "",
+      "description": "Email Address Change"
+    },
+    "EmployerChange": {
+      "value": "",
+      "description": "Employer Change"
+    },
+    "EmployerDetailsChange": {
+      "value": "",
+      "description": "Employer Details Change"
+    },
+    "FormAlertChange": {
+      "value": "",
+      "description": "Form Alert Change"
+    },
+    "IRSwitchOn": {
+      "value": "",
+      "description": "IR SwitchOn"
+    },
+    "LegalEarmarking": {
+      "value": "",
+      "description": "Legal Earmarking"
+    },
+    "MoveToForeignAddress": {
+      "value": "",
+      "description": "Move To Foreign Address"
+    },
+    "MPAAStatusChange": {
+      "value": "",
+      "description": "MPAAStatusChange"
+    },
+    "descriptionChange": {
+      "value": "",
+      "description": "Description Change"
+    },
+    "PensionSharingOrderChange": {
+      "value": "",
+      "description": "Pension Sharing Order Change"
+    },
+    "PersonalDetailsChange": {
+      "value": "",
+      "description": "Personal Details Change"
+    },
+    "PhoneNumberChange": {
+      "value": "",
+      "description": "Phone Number Change"
+    },
+    "QuoteCompleted": {
+      "value": "",
+      "description": "Quote Completed"
+    },
+    "TaxvalueChange": {
+      "value": "",
+      "description": "Tax Value hange"
+    },
+    "TransferStatusChange": {
+      "value": "",
+      "description": "Transfer Status Change"
+    },
+    "TransferValueChange": {
+      "value": "",
+      "description": "Transfer Value Change"
+    },
+    "Withdrawal": {
+      "value": "",
+      "description": "Withdrawal"
+    }
+  },
+  "flexibleAccessActionType": {
+    "Change": {
+      "value": "FACH",
+      "description": "Change"
+    },
+    "Stop": {
+      "value": "FASP",
+      "description": "Stop"
+    },
+    "Start": {
+      "value": "FAST",
+      "description": "Start"
+    }
+  },
+  "facilitationType": {
+    "Premium": {
+      "value": "PREM",
+      "description": "Premium"
+    },
+    "Fund": {
+      "value": "FUND",
+      "description": "Fund"
+    }
+  },
+  "flexibleAccessType": {
+    "Capped": {
+      "value": "CAPP",
+      "description": "Capped"
+    },
+    "FullTaxFree": {
+      "value": "FTXF",
+      "description": "Full Tax Free"
+    },
+    "PartialTaxFree": {
+      "value": "PTXF",
+      "description": "Partial Tax Free"
+    },
+    "Dripfeed": {
+      "value": "DRIP",
+      "description": "Dripfeed"
+    },
+    "Dripfeedsimple": {
+      "value": "DFSM",
+      "description": "Dripfeed Simple"
+    },
+    "FlexibleTransferInDrawdown": {
+      "value": "FTID",
+      "description": "Flexible Transfer In Drawdown"
+    }
+  },
+  "fundType": {
+    "BenchmarkFund": {
+      "value": "",
+      "description": "Benchmark Fund"
+    },
+    "ExternalFund": {
+      "value": "",
+      "description": "External Fund"
+    },
+    "RLFund": {
+      "value": "",
+      "description": "RL Fund"
+    }
+  },
+  "incrementType": {
+    "RegularPremium": {
+      "value": "ORD",
+      "description": "Regular Premium"
+    },
+    "SinglePremium": {
+      "value": "SP",
+      "description": "Single Premium"
+    },
+    "TransferValue": {
+      "value": "TV",
+      "description": "Transfer Value"
+    },
+    "Contracting Out": {
+      "value": "DSS",
+      "description": "Contracting Out"
+    }
+  },
+  "investmentType": {
+    "Governed Portfolio": {
+      "value": "GOVP",
+      "description": "Governed Portfolio"
+    },
+    "GRIP": {
+      "value": "GRIP",
+      "description": "GRIP"
+    },
+    "IndividualFunds": {
+      "value": "IDFD",
+      "description": "Individual Funds"
+    },
+    "Target Lifestyle Strategy": {
+      "value": "TFST",
+      "description": "Target Lifestyle Strategy"
+    },
+    "Felixble Lifestyle Strategy": {
+      "value": "FLST",
+      "description": "Felixble Lifestyle Strategy"
+    },
+    "Custom Portfolio": {
+      "value": "CUSP",
+      "description": "Custom Portfolio"
+    },
+    "Custom Strategy": {
+      "value": "CUSS",
+      "description": "Custom Strategy"
+    }
+  },
+  "investorType": {
+    "Individual": {
+      "value": "INDI",
+      "description": "Individual"
+    },
+    "Company": {
+      "value": "CORP",
+      "description": "Company"
+    }
+  },
+  "maritalStatusType": {
+    "Civil Partnership": {
+      "value": "CP",
+      "description": "Civil Partnership"
+    },
+    "Co-habiting": {
+      "value": "CH",
+      "description": "Co-habiting"
+    },
+    "Divorced": {
+      "value": "D",
+      "description": "Divorced"
+    },
+    "Married": {
+      "value": "M",
+      "description": "Married"
+    },
+    "Separated": {
+      "value": "SPRT",
+      "description": "Separated"
+    },
+    "Single": {
+      "value": "S",
+      "description": "Single"
+    },
+    "Unknown": {
+      "value": "U",
+      "description": "Unknown"
+    },
+    "Widowed": {
+      "value": "W",
+      "description": "Widowed"
+    }
+  },
+  "origoProcessType": {
+    "Both": {
+      "value": "BOTH",
+      "description": "Both"
+    },
+    "TransferIn": {
+      "value": "TRIN",
+      "description": "Transfer In"
+    },
+    "TransferOut": {
+      "value": "TROT",
+      "description": "Transfer Out"
+    }
+  },
+  "payerType": {
+    "Individual": {
+      "value": "INDI",
+      "description": "Individual"
+    },
+    "Employer": {
+      "value": "CORP",
+      "description": "Employer"
+    },
+    "Third Party": {
+      "value": "TDPT",
+      "description": "ThirdParty"
+    }
+  },
+  "paymentFrequencyType": {
+    "Annually": {
+      "value": "Y",
+      "description": "Annually"
+    },
+    "Half Yearly": {
+      "value": "H",
+      "description": "Half Yearly"
+    },
+    "Monthly": {
+      "value": "M",
+      "description": "Monthly"
+    },
+    "Quarterly": {
+      "value": "Q",
+      "description": "Quarterly"
+    }
+  },
+  "paymentMethod": {
+    "BACS": {
+      "value": "BACS",
+      "description": "BACS"
+    },
+    "Cheque": {
+      "value": "CHQ",
+      "description": "Cheque"
+    },
+    "DirectDebit": {
+      "value": "DD",
+      "description": "Direct Debit"
+    },
+    "ElectronicTransfer": {
+      "value": "ELCT",
+      "description": "Electronic Transfer"
+    }
+  },
+  "paymentModeType": {
+    "BACS": {
+      "value": "BACS",
+      "description": "BACS"
+    },
+    "Cheque": {
+      "value": "CHQ",
+      "description": "Cheque"
+    },
+    "Direct Debit": {
+      "value": "DD",
+      "description": "Direct Debit"
+    },
+    "Electronic Transfer": {
+      "value": "ELCT",
+      "description": "Electronic Transfer"
+    }
+  },
+  "pensionAccountTypes": {
+    "Accumulation": {
+      "value": "ACCU",
+      "description": "Accumulation"
+    },
+    "Decumulation from internal accumulation": {
+      "value": "PENI",
+      "description": "Decumulation from internal accumulation"
+    },
+    "Decumulation from transfer": {
+      "value": "PENT",
+      "description": "Decumulation from transfer"
+    }
+  },
+  "pensionTypes": {
+    "Pension Portfolio": {
+      "value": "RS-PP",
+      "description": "Pension Portfolio"
+    },
+    "Individual Stakeholder Pension Plan": {
+      "value": "RS-STK",
+      "description": "Individual Stakeholder Pension Plan"
+    }
+  },
+  "productType": {
+    "ISA": {
+      "value": "ISA",
+      "description": "ISA"
+    },
+    "Pension": {
+      "value": "PP",
+      "description": "Pension"
+    },
+    "IPA": {
+      "value": "IPA",
+      "description": "IPA"
+    },
+    "Group": {
+      "value": "GRP",
+      "description": "Group"
+    }
+  },
+  "proposalStatusType": {
+    "Complete": {
+      "value": "COMP",
+      "description": "Complete"
+    },
+    "Incomplete": {
+      "value": "INCM",
+      "description": "Incomplete"
+    },
+    "InProgress": {
+      "value": "INPR",
+      "description": "InProgress"
+    },
+    "readyToSubmit": {
+      "value": "REDY",
+      "description": "Ready to Submit"
+    }
+  },
+  "protectionType": {
+    "FP16": {
+        "value": "FP16",
+        "description": "Fixed Protection 2016"
+      },
+      "FP14":  {
+        "value": "FP14",
+        "description": "Fixed Protection 2014"
+      },
+      "FP12":  {
+        "value": "FP12",
+        "description": "Fixed Protection 2012"
+      },
+      "IP16":  {
+        "value": "IP16",
+        "description": "Individual Protection 2016"
+      },
+      "IP14":  {
+        "value": "IP14",
+        "description": "Individual Protection 2014"
+      },
+      "PRIM": {
+        "value": "PRIM",
+        "description": "Primary Protection"
+      },
+      "ENHA":  {
+        "value": "ENHA",
+        "description": "Enhanced Protection"
+      }
+  },
+  "providerTrustLevelType" : {
+    "Trusted": {
+        "value": "TRUS",
+        "description": "Trusted"
+      },
+      "NotTrusted": {
+        "value": "NTRS",
+        "description": "Not Trusted"
+      },
+      "QROPS": {
+        "value": "QROP",
+        "description": "QROPS"
+      } 
+  },
+  "quoteStatusType": {
+    "Complete": {
+        "value": "COMP",
+        "description": "Complete"
+      },
+      "Incomplete":  {
+        "value": "INCO",
+        "description": "Incomplete"
+      }  
+  },
+  "quoteType": {
+    "Exit Stage 1": {
+        "value": "ESG1",
+        "description": "Exit Stage 1"
+      },
+      "Exit Stage 2": {
+        "value": "ESG2",
+        "description": "Exit Stage 2"
+      },
+      "Key Feature Illustration":  {
+        "value": "KFIL",
+        "description": "Key Feature Illustration"
+      }
+  },
+  "rebalanceFrequencyType" : {
+    "Half Yearly": {
+        "value": "HYFR",
+        "description": "Half Yearly"
+      },
+      "Monthly":   {
+        "value": "MNFR",
+        "description": "Monthly"
+      },
+      "Quarterly": {
+        "value": "QTFR",
+        "description": "Quarterly"
+      },
+      "Yearly":  {
+        "value": "YRFR",
+        "description": "Yearly"
+      },
+      "Not Rebalanced": {
+        "value": "NTRB",
+        "description": "Not Rebalanced"
+      }
+  },
+  "referenceType" : {
+    "Not Set": {
+        "value": "NOTS",
+        "description": "Not Set"
+      },
+      "Policy":  {
+        "value": "POLI",
+        "description": "Policy"
+      },
+      "Proposal":  {
+        "value": "PROP",
+        "description": "Proposal"
+      },
+      "Quote": {
+        "value": "QUOT",
+        "description": "Quote"
+      }
+  },
+  "regularPremiumStatus" : {
+    "Direct Debit Cancelled": {
+        "value": "DDCC",
+        "description": "Direct Debit Cancelled"
+      },
+      "Direct Debit Failed":  {
+        "value": "DDFF",
+        "description": "Direct Debit Failed"
+      },
+      "Direct Debit Set Up Complete":  {
+        "value": "DDCO",
+        "description": "Direct Debit Set Up Complete"
+      },
+      "Direct Debit Set Up Failed":  {
+        "value": "DDFA",
+        "description": "Direct Debit Set Up Failed"
+      },
+      "First Contribution Paid":  {
+        "value": "DDPA",
+        "description": "First Contribution Paid"
+      },
+      "Requesting First Contribution":  {
+        "value": "DDRQ",
+        "description": "Requesting First Contribution"
+      },
+      "Setting up Direct Debit":  {
+        "value": "SUDD",
+        "description": "Setting up Direct Debit"
+      }
+  },
+  "relatedIDType": {
+    "CRM Case ID": {
+        "value": "CRMC",
+        "description": "CRM Case ID"
+      },
+      "New Decumulation Account ID": {
+        "value": "NDCA",
+        "description": "New Decumulation Account ID"
+      },
+      "Origo":  {
+        "value": "ORIG",
+        "description": "Origo"
+      },
+      "Receiving Scheme Provider": {
+        "value": "RSPR",
+        "description": "Receiving Scheme Provider"
+      },
+      "Sonata Bank ID":  {
+        "value": "SNTB",
+        "description": "Sonata Bank ID"
+      },
+      "Sonata Transaction": {
+        "value": "SNTN",
+        "description": "Sonata Transaction"
+      }
+  },
+  "riskProfileType" : {
+    "Adventurous": {
+        "value": "ADV",
+        "description": "Adventurous"
+      },
+      "Balanced": {
+        "value": "BALA",
+        "description": "Balanced"
+      },
+      "Cautious": {
+        "value": "CAUT",
+        "description": "Cautious"
+      },
+      "Moderately Adventurous":  {
+        "value": "MODA",
+        "description": "Moderately Adventurous"
+      },
+      "Moderately Cautious":  {
+        "value": "MODC",
+        "description": "Moderately Cautious"
+      }
+  },
+  "royalLondonContactInformation" : {
+    "New Business - Quote":{
+        "Id": 1,
+        "ContactReference": "New Business - Quote",
+        "ContactTeamdescription": "Case Manager specific",
+        "ContactTeamArea": "New Business - Quote",
+        "TeamPhone": "",
+        "TeamPhoneIVROptions": "n/a",
+        "TeamEmail": "",
+        "DeptPhone": "0345 60 50 050"
+      },
+      "New Business - Application form": {
+        "Id": 2,
+        "ContactReference": "New Business - Application form",
+        "ContactTeamdescription": "Case Manager specific",
+        "ContactTeamArea": "New Business - Application form",
+        "TeamPhone": "",
+        "TeamPhoneIVROptions": "n/a",
+        "TeamEmail": "",
+        "DeptPhone": "0345 60 50 050"
+      },
+      "Change of Investment": {
+        "Id": 3,
+        "ContactReference": "Change of Investment",
+        "ContactTeamdescription": "Premiums & Alterations RLI",
+        "ContactTeamArea": "Change of Investment",
+        "TeamPhone": "0345 602 1868",
+        "TeamPhoneIVROptions": "n/a",
+        "TeamEmail": "pp.premiums@royallondon.com",
+        "DeptPhone": "0345 60 50 050"
+      },
+      "Single Premium": {
+        "Id": 4,
+        "ContactReference": "Single Premium",
+        "ContactTeamdescription": "Premiums & Alterations RLI",
+        "ContactTeamArea": "Submit a Single Premium",
+        "TeamPhone": "0345 602 1868",
+        "TeamPhoneIVROptions": "n/a",
+        "TeamEmail": "pp.premiums@royallondon.com",
+        "DeptPhone": "0345 60 50 050"
+      },
+      "Change DD Details": {
+        "Id": 5,
+        "ContactReference": "Change DD Details",
+        "ContactTeamdescription": "Premiums & Alterations RLI",
+        "ContactTeamArea": "Change DD Details",
+        "TeamPhone": "0345 602 1868",
+        "TeamPhoneIVROptions": "n/a",
+        "TeamEmail": "pp.premiums@royallondon.com",
+        "DeptPhone": "0345 60 50 050"
+      },
+      "Cancel policy":  {
+        "Id": 6,
+        "ContactReference": "Cancel policy",
+        "ContactTeamdescription": "Policy Information",
+        "ContactTeamArea": "Cancel policy",
+        "TeamPhone": "0345 850 0535",
+        "TeamPhoneIVROptions": "n/a",
+        "TeamEmail": "pp.policyinfo@royallondon.com",
+        "DeptPhone": "0345 60 50 050"
+      },
+      "TV Claim":  {
+        "Id": 7,
+        "ContactReference": "TV Claim",
+        "ContactTeamdescription": "Transfers",
+        "ContactTeamArea": "TV Claim",
+        "TeamPhone": "0345 602 1865",
+        "TeamPhoneIVROptions": "n/a",
+        "TeamEmail": "pp.transfers@royallondon.com",
+        "DeptPhone": "0345 60 50 050"
+      },
+      "Retirement Claims - PP": {
+        "Id": 8,
+        "ContactReference": "Retirement Claims - PP",
+        "ContactTeamdescription": "Retirements",
+        "ContactTeamArea": "Retirement Claims",
+        "TeamPhone": "0345 850 8948",
+        "TeamPhoneIVROptions": "n/a",
+        "TeamEmail": "ppclaims@royallondon.com",
+        "DeptPhone": "0345 60 50 050"
+      },
+      "Retirement Claims - IR Switch": {
+        "Id": 9,
+        "ContactReference": "Retirement Claims - IR Switch",
+        "ContactTeamdescription": "Retirements",
+        "ContactTeamArea": "Retirement Claims",
+        "TeamPhone": "0345 850 8948",
+        "TeamPhoneIVROptions": "n/a",
+        "TeamEmail": "irswitchonquote@royallondon.com",
+        "DeptPhone": "0345 60 50 050"
+      },
+      "Income Release - IR Servicing":  {
+        "Id": 10,
+        "ContactReference": "Income Release - IR Servicing",
+        "ContactTeamdescription": "Income Release",
+        "ContactTeamArea": "Income Release",
+        "TeamPhone": "0345 850 8953",
+        "TeamPhoneIVROptions": "n/a",
+        "TeamEmail": "irservicing@royallondon.com",
+        "DeptPhone": "0345 60 50 050"
+      },
+      "Income Release - IDD": {
+        "Id": 11,
+        "ContactReference": "Income Release - IDD",
+        "ContactTeamdescription": "Income Release",
+        "ContactTeamArea": "Income Release",
+        "TeamPhone": "0345 850 8954",
+        "TeamPhoneIVROptions": "n/a",
+        "TeamEmail": "idd@royallondon.com",
+        "DeptPhone": "0345 60 50 050"
+      },
+      "Income Release - SIPP":  {
+        "Id": 12,
+        "ContactReference": "Income Release - SIPP",
+        "ContactTeamdescription": "Income Release",
+        "ContactTeamArea": "Income Release",
+        "TeamPhone": "0345 6007477",
+        "TeamPhoneIVROptions": "n/a",
+        "TeamEmail": "sipp@royallondon.com",
+        "DeptPhone": "0345 60 50 050"
+      },
+      "Compliant":  {
+        "Id": 13,
+        "ContactReference": "Compliant",
+        "ContactTeamdescription": "Customer Relations",
+        "ContactTeamArea": "Complaint",
+        "TeamPhone": 0,
+        "TeamPhoneIVROptions": "n/a",
+        "TeamEmail": "customerrelations@royallondon.com",
+        "DeptPhone": "0345 60 50 050"
+      },
+      "Change of address":  {
+        "Id": 14,
+        "ContactReference": "Change of address",
+        "ContactTeamdescription": "Policy Information",
+        "ContactTeamArea": "Servicing - Change of Address",
+        "TeamPhone": "0345 850 0535",
+        "TeamPhoneIVROptions": "n/a",
+        "TeamEmail": "pp.policyinfo@royallondon.com",
+        "DeptPhone": "0345 60 50 050"
+      },
+      "Change of description": {
+        "Id": 15,
+        "ContactReference": "Change of description",
+        "ContactTeamdescription": "Policy Information",
+        "ContactTeamArea": "Servicing - Change of description",
+        "TeamPhone": "0345 850 0535",
+        "TeamPhoneIVROptions": "n/a",
+        "TeamEmail": "pp.policyinfo@royallondon.com",
+        "DeptPhone": "0345 60 50 050"
+      },
+      "Other changes":  {
+        "Id": 16,
+        "ContactReference": "Other changes",
+        "ContactTeamdescription": "Policy Information",
+        "ContactTeamArea": "Servicing - Change",
+        "TeamPhone": "0345 850 0535",
+        "TeamPhoneIVROptions": "n/a",
+        "TeamEmail": "pp.policyinfo@royallondon.com",
+        "DeptPhone": "0345 60 50 050"
+      },
+      "Bereavement":  {
+        "Id": 17,
+        "ContactReference": "Bereavement",
+        "ContactTeamdescription": "Bereavements",
+        "ContactTeamArea": "Bereavement",
+        "TeamPhone": "0345 604 5155",
+        "TeamPhoneIVROptions": "n/a",
+        "TeamEmail": "RLIbereavements@royallondon.com",
+        "DeptPhone": "0345 60 50 050"
+      },
+      "Policy Info":  {
+        "Id": 18,
+        "ContactReference": "Policy Info",
+        "ContactTeamdescription": "Policy Information",
+        "ContactTeamArea": "Policy Info - Fund Value etc",
+        "TeamPhone": "0345 850 0535",
+        "TeamPhoneIVROptions": "n/a",
+        "TeamEmail": "pp.policyinfo@royallondon.com",
+        "DeptPhone": "0345 60 50 050"
+      },
+      "NSU":  {
+        "Id": 19,
+        "ContactReference": "NSU",
+        "ContactTeamdescription": "NSU",
+        "ContactTeamArea": "NSU",
+        "TeamPhone": "0345 604 0800",
+        "TeamPhoneIVROptions": "n/a",
+        "TeamEmail": "nsu@rlisales.com",
+        "DeptPhone": "0345 604 0800"
+      },
+      "Claims and Deaths": {
+        "Id": 20,
+        "ContactReference": "Claims and Deaths",
+        "ContactTeamdescription": "Bereavements",
+        "ContactTeamArea": "Claims and Deaths",
+        "TeamPhone": "0345 604 5155",
+        "TeamPhoneIVROptions": "n/a",
+        "TeamEmail": "RLIbereavements@royallondon.com",
+        "DeptPhone": "0345 60 50 050"
+      },
+      "Missed, changed or bank info":  {
+        "Id": 21,
+        "ContactReference": "Missed, changed or bank info",
+        "ContactTeamdescription": "Premiums & Alterations RLI",
+        "ContactTeamArea": "Premiums - Missed, changed or bank info",
+        "TeamPhone": "0345 602 1868",
+        "TeamPhoneIVROptions": "n/a",
+        "TeamEmail": "pp.premiums@royallondon.com",
+        "DeptPhone": "0345 60 50 050"
+      },
+      "Policy Values": {
+        "Id": 22,
+        "ContactReference": "Policy Values",
+        "ContactTeamdescription": "Policy Information",
+        "ContactTeamArea": "Values",
+        "TeamPhone": "0345 850 0535",
+        "TeamPhoneIVROptions": "n/a",
+        "TeamEmail": "pp.policyinfo@royallondon.com",
+        "DeptPhone": "0345 60 50 050"
+      },
+      "Policy Info General":  {
+        "Id": 23,
+        "ContactReference": "Policy Info General",
+        "ContactTeamdescription": "Policy Information",
+        "ContactTeamArea": "Policy Info General",
+        "TeamPhone": "0345 850 0535",
+        "TeamPhoneIVROptions": "n/a",
+        "TeamEmail": "pp.policyinfo@royallondon.com",
+        "DeptPhone": "0345 60 50 050"
+      },
+      "Adviser Charging":   {
+        "Id": 24,
+        "ContactReference": "Adviser Charging",
+        "ContactTeamdescription": "Policy Information",
+        "ContactTeamArea": "Adviser Charging",
+        "TeamPhone": "0345 850 0535",
+        "TeamPhoneIVROptions": "n/a",
+        "TeamEmail": "pp.policyinfo@royallondon.com",
+        "DeptPhone": "0345 60 50 050"
+      },
+      "Authority requests":  {
+        "Id": 25,
+        "ContactReference": "Authority requests",
+        "ContactTeamdescription": "Policy Information",
+        "ContactTeamArea": "Authority requests",
+        "TeamPhone": "0345 850 0535",
+        "TeamPhoneIVROptions": "n/a",
+        "TeamEmail": "pp.policyinfo@royallondon.com",
+        "DeptPhone": "0345 60 50 050"
+      },
+      "Bid and Fund Prices":  {
+        "Id": 26,
+        "ContactReference": "Bid and Fund Prices",
+        "ContactTeamdescription": "Policy Information",
+        "ContactTeamArea": "Bid and Fund Prices",
+        "TeamPhone": "0345 850 0535",
+        "TeamPhoneIVROptions": "n/a",
+        "TeamEmail": "pp.policyinfo@royallondon.com",
+        "DeptPhone": "0345 60 50 050"
+      }
+  },
+  "genderType" : {
+    "Female": {
+        "value": "FEM",
+        "description": "Female"
+      },
+      "Male": {
+        "value": "MALE",
+        "description": "Male"
+      }
+  },
+  "singlePremiumStatus" : {
+    "Awaiting single contribution": {
+        "value": "SCAW",
+        "description": "Awaiting single contribution"
+      },
+      "Single contribution complete":  {
+        "value": "SCCO",
+        "description": "Single contribution complete"
+      },
+      "Single contribution received":  {
+        "value": "ACRE",
+        "description": "Single contribution received"
+      }
+  },
+  "targetStrategyType": {
+    "Annuity": {
+        "value": "ANUY",
+        "description": "Annuity"
+      },
+      "Cash": {
+        "value": "CASH",
+        "description": "Cash"
+      },
+      "Drawdown":  {
+        "value": "DDWN",
+        "description": "Drawdown"
+      }
+  },
+  "thirdPartyType" :{
+    "Power of Attorney": {
+        "value": "POA",
+        "description": "Power of Attorney"
+      },
+      "Legal Guardian":  {
+        "value": "LGDN",
+        "description": "Legal Guardian"
+      }
+  },
+  "titleType": {
+    "Admiral": {
+        "value": "ADML",
+        "description": "Admiral"
+      },
+      "Baron":  {
+        "value": "BARN",
+        "description": "Baron"
+      },
+      "Brigadier":  {
+        "value": "BRIG",
+        "description": "Brigadier"
+      },
+      "Captain": {
+        "value": "CAPT",
+        "description": "Captain"
+      },
+      "Colonel":  {
+        "value": "COLN",
+        "description": "Colonel"
+      },
+      "Commander":  {
+        "value": "COMM",
+        "description": "Commander"
+      },
+      "Count": {
+        "value": "CONT",
+        "description": "Count"
+      },
+      "Dame":  {
+        "value": "DAME",
+        "description": "Dame"
+      },
+      "Doctor":  {
+        "value": "DR",
+        "description": "Doctor"
+      },
+      "Duchess": {
+        "value": "DUCH",
+        "description": "Duchess"
+      },
+      "Duke":  {
+        "value": "DUKE",
+        "description": "Duke"
+      },
+      "Earl": {
+        "value": "EARL",
+        "description": "Earl"
+      },
+      "Father":  {
+        "value": "FATH",
+        "description": "Father"
+      },
+      "Gender Neutral": {
+        "value": "NEUT",
+        "description": "Gender Neutral"
+      },
+      "Group Captain":  {
+        "value": "GCPT",
+        "description": "Group Captain"
+      },
+      "Honourable":  {
+        "value": "HON",
+        "description": "Honourable"
+      },
+      "Honourable Doctor": {
+        "value": "HOND",
+        "description": "Honourable Doctor"
+      },
+      "Inspector": {
+        "value": "INSP",
+        "description": "Inspector"
+      },
+      "Judge": {
+        "value": "JUDG",
+        "description": "Judge"
+      },
+      "Lady":  {
+        "value": "LADY",
+        "description": "Lady"
+      },
+      "Lieutenant Colonel": {
+        "value": "LTCL",
+        "description": "Lieutenant Colonel"
+      },
+      "Lieutenant Commander":  {
+        "value": "LTCD",
+        "description": "Lieutenant Commander"
+      },
+      "Lord": {
+        "value": "LORD",
+        "description": "Lord"
+      },
+      "Major":  {
+        "value": "MAJR",
+        "description": "Major"
+      },
+      "Marchioness":  {
+        "value": "MARC",
+        "description": "Marchioness"
+      },
+      "Marquess": {
+        "value": "MARQ",
+        "description": "Marquess"
+      },
+      "Master": {
+        "value": "MAST",
+        "description": "Master"
+      },
+      "Miss": {
+        "value": "MISS",
+        "description": "Miss"
+      },
+      "Mr": {
+        "value": "MR",
+        "description": "Mr"
+      },
+      "Mrs": {
+        "value": "MRS",
+        "description": "Mrs"
+      },
+      "Ms":  {
+        "value": "MS",
+        "description": "Ms"
+      },
+      "Professor":  {
+        "value": "PROF",
+        "description": "Professor"
+      },
+      "Rabbi":  {
+        "value": "RABI",
+        "description": "Rabbi"
+      },
+      "Reverend": {
+        "value": "REV",
+        "description": "Reverend"
+      },
+      "Reverend Father":  {
+        "value": "REVF",
+        "description": "Reverend Father"
+      },
+      "Reverend Mother":  {
+        "value": "REVM",
+        "description": "Reverend Mother"
+      },
+      "Right Honourable":   {
+        "value": "RHON",
+        "description": "Right Honourable"
+      },
+      "Right Honourable Lady": {
+        "value": "RHLA",
+        "description": "Right Honourable Lady"
+      },
+      "Right Honourable Lord":  {
+        "value": "RTHL",
+        "description": "Right Honourable Lord"
+      },
+      "Right Reverend":  {
+        "value": "RTRE",
+        "description": "Right Reverend"
+      },
+      "Royal Highness": {
+        "value": "HRH",
+        "description": "Royal Highness"
+      },
+      "Sergeant":  {
+        "value": "SGT",
+        "description": "Sergeant"
+      },
+      "Sir": {
+        "value": "SIR",
+        "description": "Sir"
+      },
+      "Sister": {
+        "value": "SIST",
+        "description": "Sister"
+      },
+      "The Very Reverend": {
+        "value": "TVR",
+        "description": "The Very Reverend"
+      },
+      "Viscount":  {
+        "value": "VISC",
+        "description": "Viscount"
+      },
+      "Viscountess": {
+        "value": "VISS",
+        "description": "Viscountess"
+      },
+      "Wing Commander": {
+        "value": "WGCM",
+        "description": "Wing Commander"
+      }
+  },
+  "transactionEventStatuses": {
+    "Cancelled": {
+        "value": "CANC",
+        "description": "Cancelled"
+      },
+      "Dishonoured": {
+        "value": "DISH",
+        "description": "Dishonoured"
+      },
+      "Normal":  {
+        "value": "NORM",
+        "description": "Normal"
+      },
+      "Pending": {
+        "value": "PEND",
+        "description": "Pending"
+      },
+      "Quote": {
+        "value": "QUOT",
+        "description": "Quote"
+      },
+      "Refund": {
+        "value": "REFD",
+        "description": "Refund"
+      },
+      "Reversed":  {
+        "value": "REVS",
+        "description": "Reversed"
+      },
+      "Unverified":  {
+        "value": "UNCF",
+        "description": "Unverified"
+      },
+      "Unconfirmed":  {
+        "value": "UNCO",
+        "description": "Unconfirmed"
+      },
+      "Unconf Price":  {
+        "value": "UNCP",
+        "description": "Unconf Price"
+      }
+  },
+  "TSTP" : {
+    "External":{
+        "value": "EXTN",
+        "description": "External"
+      },
+      "Internal": {
+        "value": "INTN",
+        "description": "Internal"
+      },
+      "Origo":  {
+        "value": "ORIG",
+        "description": "Origo"
+      }
+  },
+  "transactionType" : {
+    "Annual Management Charge Adjustment":  {
+        "value": "AMCA",
+        "description": "Annual Management Charge Adjustment"
+      },
+      "Full Open Market Option": {
+        "value": "ANFT",
+        "description": "Full Open Market Option"
+      },
+      "Partial Open Market Option": {
+        "value": "ANUA",
+        "description": "Partial Open Market Option"
+      },
+      "Web Application": {
+        "value": "APPL",
+        "description": "Web Application"
+      },
+      "Lump Sum Application for Additional Permitted Subscription inherited upon death of the spouse":  {
+        "value": "APSL",
+        "description": "Lump Sum Application for Additional Permitted Subscription inherited upon death of the spouse"
+      },
+      "Transfer units from deceased client's account to living spouse's account":  {
+        "value": "APST",
+        "description": "Transfer units from deceased client's account to living spouse's account"
+      },
+      "Auto Rebalance":  {
+        "value": "ARBL",
+        "description": "Auto Rebalance"
+      },
+      "Authorised Payment":  {
+        "value": "AUTP",
+        "description": "Authorised Payment"
+      },
+      "Beneficiary DD designation - LTA Test":  {
+        "value": "BDDD",
+        "description": "Beneficiary DD designation - LTA Test"
+      },
+      "Beneficiary DD designation - LTA Test - Internal Transfer to beneficiary Decumulation Account (deceased client under 75)": {
+        "value": "BDDT",
+        "description": "Beneficiary DD designation - LTA Test - Internal Transfer to beneficiary Decumulation Account (deceased client under 75)"
+      },
+      "Beneficiary INTERNAL Transfer":  {
+        "value": "BINT",
+        "description": "Beneficiary INTERNAL Transfer"
+      },
+      "Beneficiary Tax Free Income": {
+        "value": "BTFI",
+        "description": "Beneficiary Tax Free Income"
+      },
+      "Cancellation of Rights":   {
+        "value": "CARI",
+        "description": "Cancellation of Rights"
+      },
+      "CHAPS Fee":  {
+        "value": "CHAP",
+        "description": "CHAPS Fee"
+      },
+      "Charity Lump Sum Death":  {
+        "value": "CHLD",
+        "description": "Charity Lump Sum Death"
+      },
+      "Contribution Refund for SIPP Product": {
+        "value": "CREF",
+        "description": "Contribution Refund for SIPP Product"
+      },
+      "Declared Bonus":  {
+        "value": "DCBN",
+        "description": "Declared Bonus"
+      },
+      "Draw Down Pension Lump Sum Death Benefit - Above LTA Age - UK SIPP": {
+        "value": "DPLB",
+        "description": "Draw Down Pension Lump Sum Death Benefit - Above LTA Age - UK SIPP"
+      },
+      "Lifetime Allowance Charge on Lump Sum Excess":  {
+        "value": "ECLS",
+        "description": "Lifetime Allowance Charge on Lump Sum Excess"
+      },
+      "Lifetime Allowance Charge on Income/Retained Excess":  {
+        "value": "ECRI",
+        "description": "Lifetime Allowance Charge on Income/Retained Excess"
+      },
+      "Transfer Out Full": {
+        "value": "FTRP",
+        "description": "Transfer Out Full"
+      },
+      "Government Bonus":  {
+        "value": "GVBO",
+        "description": "Government Bonus"
+      },
+      "Help to Buy Transfer In":  {
+        "value": "HBTI",
+        "description": "Help to Buy Transfer In"
+      },
+      "HMRC Tax": {
+        "value": "HMRC",
+        "description": "HMRC Tax"
+      },
+      "Income Sweep Credit":   {
+        "value": "INDD",
+        "description": "Income Sweep Credit"
+      },
+      "Income Sweep Debit":  {
+        "value": "INSW",
+        "description": "Income Sweep Debit"
+      },
+      "Lifetime ISA Transfer In":  {
+        "value": "LITI",
+        "description": "Lifetime ISA Transfer In"
+      },
+      "LISA Non-Permitted Reason – Charges Applies": {
+        "value": "LNPR",
+        "description": "LISA Non-Permitted Reason – Charges Applies"
+      },
+      "LISA Permitted Reason – No Charge": {
+        "value": "LPRR",
+        "description": "LISA Permitted Reason – No Charge"
+      },
+      "Lump Sum Death on Crystallised Funds - Below LTA Age - UK SIPP": {
+        "value": "LSCB",
+        "description": "Lump Sum Death on Crystallised Funds - Below LTA Age - UK SIPP"
+      },
+      "Lump Sum Death on Uncrys Funds Above LTA Age - UK SIPP":  {
+        "value": "LSDT",
+        "description": "Lump Sum Death on Uncrys Funds Above LTA Age - UK SIPP"
+      },
+      "Lump Sum Death on Uncrystallised Funds - Below LTA Age - UK SIPP": {
+        "value": "LSUB",
+        "description": "Lump Sum Death on Uncrystallised Funds - Below LTA Age - UK SIPP"
+      },
+      "Single Premium": {
+        "value": "LSUM",
+        "description": "Single Premium"
+      },
+      "Pension Excess Lump Sum Payment": {
+        "value": "PELS",
+        "description": "Pension Excess Lump Sum Payment"
+      },
+      "Phased Income Crystallisation":  {
+        "value": "PIDD",
+        "description": "Phased Income Crystallisation"
+      },
+      "Plan Transfer In": {
+        "value": "PLTF",
+        "description": "Plan Transfer In"
+      },
+      "Transfer of Pension Fund as a result of Pension Sharing Order": {
+        "value": "PNDB",
+        "description": "Transfer of Pension Fund as a result of Pension Sharing Order"
+      },
+      "Pension Fund Drawdown": {
+        "value": "PPDD",
+        "description": "Pension Fund Drawdown"
+      },
+      "Pension Transfer In":  {
+        "value": "PTFI",
+        "description": "Pension Transfer In"
+      },
+      "Transfer Out Partial": {
+        "value": "PTFO",
+        "description": "Transfer Out Partial"
+      },
+      "PTO": {
+        "value": "PTOC",
+        "description": "PTO"
+      },
+      "PTO - No Subs": {
+        "value": "PTON",
+        "description": "PTO - No Subs"
+      },
+      "PTO - With Subs":  {
+        "value": "PTOW",
+        "description": "PTO - With Subs"
+      },
+      "Web Transfer In": {
+        "value": "PTRF",
+        "description": "Web Transfer In"
+      },
+      "DrawDown Transfer Out to a Recognised Pension Scheme  - Full Transfer - Decumulation": {
+        "value": "PTUP",
+        "description": "DrawDown Transfer Out to a Recognised Pension Scheme  - Full Transfer - Decumulation"
+      },
+      "Regular Premium": {
+        "value": "RCON",
+        "description": "Regular Premium"
+      },
+      "Regular income payments, with no fund switch": {
+        "value": "RINCP",
+        "description": "Regular income payments, with no fund switch"
+      },
+      "Regular Pension Payment Transaction":   {
+        "value": "RPPM",
+        "description": "Regular Pension Payment Transaction"
+      },
+      "Regular Pension Commencement Lump Sum":  {
+        "value": "RTFC",
+        "description": "Regular Pension Commencement Lump Sum"
+      },
+      "Serious Ill Health Below LTA Age": {
+        "value": "SEIL",
+        "description": "Serious Ill Health Below LTA Age"
+      },
+      "Serious Ill Health Above LTA Age":  {
+        "value": "SIHB",
+        "description": "Serious Ill Health Above LTA Age"
+      },
+      "Small Lump Sums for Accumulation type accounts":  {
+        "value": "SLSA",
+        "description": "Small Lump Sums for Accumulation type accounts"
+      },
+      "Small Lump sums for Decumulation type accounts":  {
+        "value": "SLSD",
+        "description": "Small Lump sums for Decumulation type accounts"
+      },
+      "Small Pots for Accumulation type accounts": {
+        "value": "SMPT",
+        "description": "Small Pots for Accumulation type accounts"
+      },
+      "Small Pots for Decumulation types accounts":  {
+        "value": "SPDC",
+        "description": "Small Pots for Decumulation types accounts"
+      },
+      "Switch Fee":  {
+        "value": "SWFE",
+        "description": "Switch Fee"
+      },
+      "Regular income payments with a fund switch":  {
+        "value": "SWIRN",
+        "description": "Regular income payments with a fund switch"
+      },
+      "Switch of units between funds": {
+        "value": "SWIT",
+        "description": "Switch of units between funds"
+      },
+      "Trivial Commutation Lump Sum Death":  {
+        "value": "TCLD",
+        "description": "Trivial Commutation Lump Sum Death"
+      },
+      "Pension Commencement Lump Sum":  {
+        "value": "TFCP",
+        "description": "Pension Commencement Lump Sum"
+      },
+      "Web Pension Transfer In":  {
+        "value": "TFIN",
+        "description": "Web Pension Transfer In"
+      },
+      "Tax Relief Payment":  {
+        "value": "TPYT",
+        "description": "Tax Relief Payment"
+      },
+      "Transfer to QROP":  {
+        "value": "TQRP",
+        "description": "Transfer to QROP"
+      },
+      "Taxable Lump Sum Withdrawal":  {
+        "value": "TXLS",
+        "description": "Taxable Lump Sum Withdrawal"
+      },
+      "Uncrystalised Pension Lump Sum Above LTA Age - UK SIPP":  {
+        "value": "ULSA",
+        "description": "Uncrystalised Pension Lump Sum Above LTA Age - UK SIPP"
+      },
+      "Uncrystallised Pension Lump Sum Below LTA Age - UK SIPP":  {
+        "value": "ULSB",
+        "description": "Uncrystallised Pension Lump Sum Below LTA Age - UK SIPP"
+      },
+      "Void Entire Plan":  {
+        "value": "VDPL",
+        "description": "Void Entire Plan"
+      },
+      "Void Subscriptions":  {
+        "value": "VDPT",
+        "description": "Void Subscriptions"
+      },
+      "Withdrawal":  {
+        "value": "WITH",
+        "description": "Withdrawal"
+      },
+      "Regular Withdrawal":  {
+        "value": "WTHR",
+        "description": "Regular Withdrawal"
+      }
+  },
+  "transferEventStatus": {
+    "Awaiting forms": {
+        "value": "AWDF",
+        "description": "Awaiting forms"
+      },
+      "Awaiting payment":  {
+        "value": "CFNR",
+        "description": "Awaiting payment"
+      },
+      "Cancelled":  {
+        "value": "CANC",
+        "description": "Cancelled"
+      },
+      "Complete":  {
+        "value": "COMP",
+        "description": "Complete"
+      },
+      "Received":  {
+        "value": "CRCV",
+        "description": "Received"
+      },
+      "Requested from provider": {
+        "value": "INST",
+        "description": "Requested from provider"
+      },
+      "Submitted": {
+        "value": "SUBM",
+        "description": "Submitted"
+      },
+      "To be requested":  {
+        "value": "RECE",
+        "description": "To be requested"
+      },
+      "Verify Provider":  {
+        "value": "VERP",
+        "description": "Verify Provider"
+      }
+  },
+  "adviceType" : {
+    "Independent": {
+        "value": "INDE",
+        "description": "Independent"
+      },
+      "Restricted Single-tied": {
+        "value": "REST",
+        "description": "Restricted Single-tied"
+      },
+      "Whole of market": {
+        "value": "WMKT",
+        "description": "Whole of market"
+      },
+      "Restricted - Multi-tied": {
+        "value": "RDMT",
+        "description": "Restricted - Multi-tied"
+      },
+      "Simplified": {
+        "value": "SIMP",
+        "description": "Simplified"
+      },
+      "Non-advised":  {
+        "value": "NONA",
+        "description": "Non-advised"
+      }
+  }
+}
